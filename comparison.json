@@ -1,0 +1,6167 @@
+{
+  "date": "2026-11-13",
+  "scope": "form-genus",
+  "method": "Internal simulation, not a biological accuracy test. Each of 181 matrix genera supplies yes/no only for complete singleton states or size intervals entirely on one side of a threshold; all variation/missing data supplies unknown. Adaptive and fixed-order runs use the same questions and conservative matcher. Book lengths are structural path counts with all choices known, not a comparable prediction benchmark. The printed key has overlapping alternatives.",
+  "adaptive": {
+    "runs": 181,
+    "unique": 29,
+    "min_questions": 5,
+    "mean_questions": 11.16,
+    "median_questions": 10,
+    "max_questions": 27,
+    "mean_remaining": 5.63,
+    "median_remaining": 4,
+    "max_remaining": 24,
+    "mean_unknown": 2.5
+  },
+  "adaptive_unique": {
+    "runs": 29,
+    "unique": 29,
+    "min_questions": 5,
+    "mean_questions": 8.55,
+    "median_questions": 8,
+    "max_questions": 14,
+    "mean_remaining": 1,
+    "median_remaining": 1,
+    "max_remaining": 1,
+    "mean_unknown": 0.48
+  },
+  "fixed": {
+    "runs": 181,
+    "unique": 29,
+    "min_questions": 2,
+    "mean_questions": 17.59,
+    "median_questions": 18,
+    "max_questions": 34,
+    "mean_remaining": 5.63,
+    "median_remaining": 4,
+    "max_remaining": 24,
+    "mean_unknown": 4.35
+  },
+  "book": {
+    "spore_genera": 180,
+    "total_spore_genera": 181,
+    "pollen_genera": 53,
+    "nodes": 171,
+    "mean_steps": 6.63,
+    "median_steps": 7,
+    "min_steps": 1,
+    "max_steps": 10,
+    "unmapped": [
+      "Anapiculatisporites",
+      "Laevigataletes",
+      "Inaperturopollenites",
+      "Granulatasporites",
+      "Tuberculaletes",
+      "Biannulatisphaerites",
+      "Maculatasporites",
+      "Rugaletes",
+      "Staplinzonaletes",
+      "Iunctella"
+    ]
+  },
+  "feature_coverage": [
+    {
+      "id": "aperture",
+      "label": "Щель разверзания",
+      "complete": 181,
+      "single_value": 181
+    },
+    {
+      "id": "outline",
+      "label": "Очертание споры",
+      "complete": 177,
+      "single_value": 87
+    },
+    {
+      "id": "symmetry",
+      "label": "Симметрия",
+      "complete": 181,
+      "single_value": 181
+    },
+    {
+      "id": "cavation",
+      "label": "Каватность",
+      "complete": 180,
+      "single_value": 180
+    },
+    {
+      "id": "zone",
+      "label": "Экваториальная зона",
+      "complete": 180,
+      "single_value": 180
+    },
+    {
+      "id": "ornamentation",
+      "label": "Орнаментация",
+      "complete": 154,
+      "single_value": 94
+    },
+    {
+      "id": "sculpture_present",
+      "label": "Выступающая скульптура",
+      "complete": 140,
+      "single_value": 134
+    },
+    {
+      "id": "contour_even",
+      "label": "Контур споры",
+      "complete": 171,
+      "single_value": 154
+    },
+    {
+      "id": "lips_present",
+      "label": "Губы щели",
+      "complete": 169,
+      "single_value": 140
+    },
+    {
+      "id": "area_distinct",
+      "label": "Выраженная ареа",
+      "complete": 55,
+      "single_value": 55
+    },
+    {
+      "id": "curvature_arcs",
+      "label": "Дуги курватуры",
+      "complete": 17,
+      "single_value": 17
+    },
+    {
+      "id": "exine_thickness",
+      "label": "Толщина экзины",
+      "complete": 94,
+      "single_value": 86
+    },
+    {
+      "id": "exine_structure",
+      "label": "Видимая структура экзины",
+      "complete": 157,
+      "single_value": 140
+    }
+  ],
+  "question_count": 53,
+  "checks": 7159,
+  "adaptive_runs": [
+    {
+      "id": 1,
+      "name": "Calamospora",
+      "questions": 7,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Calamospora"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Leiotriletes",
+      "questions": 13,
+      "unknown": 5,
+      "remaining": 2,
+      "remaining_names": [
+        "Leiotriletes",
+        "Procoronaspora"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Punctatisporites",
+      "questions": 7,
+      "unknown": 0,
+      "remaining": 2,
+      "remaining_names": [
+        "Punctatisporites",
+        "Trachytriletes"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Trachytriletes",
+      "questions": 10,
+      "unknown": 2,
+      "remaining": 2,
+      "remaining_names": [
+        "Punctatisporites",
+        "Trachytriletes"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Waltzispora",
+      "questions": 6,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Waltzispora"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Retusotriletes",
+      "questions": 7,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Retusotriletes"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Cyclogranisporites",
+      "questions": 10,
+      "unknown": 0,
+      "remaining": 2,
+      "remaining_names": [
+        "Cyclogranisporites",
+        "Umbonatisporites"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Granulatisporites",
+      "questions": 14,
+      "unknown": 0,
+      "remaining": 3,
+      "remaining_names": [
+        "Granulatisporites",
+        "Pustulatisporites",
+        "Procoronaspora"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Lacinitriletes",
+      "questions": 15,
+      "unknown": 0,
+      "remaining": 3,
+      "remaining_names": [
+        "Lacinitriletes",
+        "Costaspora",
+        "Procoronaspora"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Pulvinispora",
+      "questions": 12,
+      "unknown": 0,
+      "remaining": 2,
+      "remaining_names": [
+        "Pulvinispora",
+        "Apiculiretusispora"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Tuberculispora",
+      "questions": 8,
+      "unknown": 2,
+      "remaining": 6,
+      "remaining_names": [
+        "Tuberculispora",
+        "Lophotriletes",
+        "Chanovejisporites",
+        "Tuberculiretusispora",
+        "Conperiplecospora",
+        "Corystisporites"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Lophotriletes",
+      "questions": 7,
+      "unknown": 1,
+      "remaining": 6,
+      "remaining_names": [
+        "Tuberculispora",
+        "Lophotriletes",
+        "Chanovejisporites",
+        "Conperiplecospora",
+        "Corystisporites",
+        "Procoronaspora"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Chanovejisporites",
+      "questions": 16,
+      "unknown": 10,
+      "remaining": 7,
+      "remaining_names": [
+        "Tuberculispora",
+        "Lophotriletes",
+        "Chanovejisporites",
+        "Conperiplecospora",
+        "Foveoretusispora",
+        "Corystisporites",
+        "Procoronaspora"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Tuberculiretusispora",
+      "questions": 16,
+      "unknown": 5,
+      "remaining": 4,
+      "remaining_names": [
+        "Tuberculispora",
+        "Tuberculiretusispora",
+        "Foveoretusispora",
+        "Umbonatisporites"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Verrucosisporites",
+      "questions": 10,
+      "unknown": 1,
+      "remaining": 5,
+      "remaining_names": [
+        "Verrucosisporites",
+        "Converrucosisporites",
+        "Schopfites",
+        "Conperiplecospora",
+        "Corystisporites"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Converrucosisporites",
+      "questions": 12,
+      "unknown": 2,
+      "remaining": 7,
+      "remaining_names": [
+        "Verrucosisporites",
+        "Converrucosisporites",
+        "Conperiplecospora",
+        "Costaspora",
+        "Pustulatisporites",
+        "Corystisporites",
+        "Procoronaspora"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Schopfites",
+      "questions": 9,
+      "unknown": 0,
+      "remaining": 3,
+      "remaining_names": [
+        "Verrucosisporites",
+        "Schopfites",
+        "Corystisporites"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Interradispora",
+      "questions": 10,
+      "unknown": 0,
+      "remaining": 2,
+      "remaining_names": [
+        "Interradispora",
+        "Costaspora"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Verruciretusispora",
+      "questions": 12,
+      "unknown": 1,
+      "remaining": 1,
+      "remaining_names": [
+        "Verruciretusispora"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Cyclobaculisporites",
+      "questions": 15,
+      "unknown": 1,
+      "remaining": 4,
+      "remaining_names": [
+        "Cyclobaculisporites",
+        "Raistrickia",
+        "Neoraistrickia",
+        "Umbonatisporites"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Horriditriletes",
+      "questions": 11,
+      "unknown": 0,
+      "remaining": 2,
+      "remaining_names": [
+        "Horriditriletes",
+        "Procoronaspora"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Microbaculispora",
+      "questions": 12,
+      "unknown": 0,
+      "remaining": 2,
+      "remaining_names": [
+        "Microbaculispora",
+        "Procoronaspora"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Cyclopileatispora",
+      "questions": 11,
+      "unknown": 0,
+      "remaining": 2,
+      "remaining_names": [
+        "Cyclopileatispora",
+        "Umbonatisporites"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Pileatisporites",
+      "questions": 11,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Pileatisporites"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Capillatisporites",
+      "questions": 13,
+      "unknown": 1,
+      "remaining": 1,
+      "remaining_names": [
+        "Capillatisporites"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Pilosisporites",
+      "questions": 15,
+      "unknown": 1,
+      "remaining": 3,
+      "remaining_names": [
+        "Pilosisporites",
+        "Procoronaspora",
+        "Reinschospora"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Spinosisporites",
+      "questions": 13,
+      "unknown": 5,
+      "remaining": 6,
+      "remaining_names": [
+        "Spinosisporites",
+        "Acanthotriletes",
+        "Raistrickia",
+        "Neoraistrickia",
+        "Umbonatisporites",
+        "Brevitriletes"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Acanthotriletes",
+      "questions": 9,
+      "unknown": 2,
+      "remaining": 5,
+      "remaining_names": [
+        "Spinosisporites",
+        "Acanthotriletes",
+        "Lukugasporites",
+        "Costaspora",
+        "Procoronaspora"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Lukugasporites",
+      "questions": 9,
+      "unknown": 2,
+      "remaining": 5,
+      "remaining_names": [
+        "Acanthotriletes",
+        "Lukugasporites",
+        "Costaspora",
+        "Procoronaspora",
+        "Brevitriletes"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Apiculatisporis",
+      "questions": 12,
+      "unknown": 1,
+      "remaining": 2,
+      "remaining_names": [
+        "Apiculatisporis",
+        "Umbonatisporites"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Jugisporis",
+      "questions": 17,
+      "unknown": 2,
+      "remaining": 4,
+      "remaining_names": [
+        "Jugisporis",
+        "Pustulatisporites",
+        "Apiculiretusispora",
+        "Procoronaspora"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Anaplanisporites",
+      "questions": 14,
+      "unknown": 1,
+      "remaining": 2,
+      "remaining_names": [
+        "Anaplanisporites",
+        "Mixtatispora"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Anapiculatisporites",
+      "questions": 8,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Anapiculatisporites"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Phidiaesporites",
+      "questions": 12,
+      "unknown": 2,
+      "remaining": 2,
+      "remaining_names": [
+        "Phidiaesporites",
+        "Foveoretusispora"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Reticulatisporites",
+      "questions": 11,
+      "unknown": 2,
+      "remaining": 1,
+      "remaining_names": [
+        "Reticulatisporites"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Microreticulatisporites",
+      "questions": 12,
+      "unknown": 4,
+      "remaining": 6,
+      "remaining_names": [
+        "Microreticulatisporites",
+        "Dictyotriletes",
+        "Foveoretusispora",
+        "Procoronaspora",
+        "Secarisporites",
+        "Biornatispora"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Anreticulispora",
+      "questions": 7,
+      "unknown": 0,
+      "remaining": 3,
+      "remaining_names": [
+        "Anreticulispora",
+        "Reticuliretusispora",
+        "Biornatispora"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Dictyotriletes",
+      "questions": 12,
+      "unknown": 4,
+      "remaining": 6,
+      "remaining_names": [
+        "Microreticulatisporites",
+        "Dictyotriletes",
+        "Foveoretusispora",
+        "Procoronaspora",
+        "Secarisporites",
+        "Biornatispora"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Reticuliretusispora",
+      "questions": 7,
+      "unknown": 0,
+      "remaining": 3,
+      "remaining_names": [
+        "Anreticulispora",
+        "Reticuliretusispora",
+        "Biornatispora"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Camptotriletes",
+      "questions": 13,
+      "unknown": 0,
+      "remaining": 2,
+      "remaining_names": [
+        "Camptotriletes",
+        "Ancamptotriletes"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Rugulispora",
+      "questions": 8,
+      "unknown": 0,
+      "remaining": 3,
+      "remaining_names": [
+        "Rugulispora",
+        "Emphanisporites",
+        "Acinosporites"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Ancamptotriletes",
+      "questions": 13,
+      "unknown": 1,
+      "remaining": 3,
+      "remaining_names": [
+        "Camptotriletes",
+        "Ancamptotriletes",
+        "Apiculiretusispora"
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Periplecotriletes",
+      "questions": 8,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Periplecotriletes"
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Conperiplecospora",
+      "questions": 11,
+      "unknown": 6,
+      "remaining": 11,
+      "remaining_names": [
+        "Tuberculispora",
+        "Lophotriletes",
+        "Chanovejisporites",
+        "Verrucosisporites",
+        "Converrucosisporites",
+        "Conperiplecospora",
+        "Costaspora",
+        "Microfoveolatispora",
+        "Convolutispora",
+        "Corystisporites",
+        "Procoronaspora"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Emphanisporites",
+      "questions": 8,
+      "unknown": 0,
+      "remaining": 3,
+      "remaining_names": [
+        "Rugulispora",
+        "Emphanisporites",
+        "Acinosporites"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Costaspora",
+      "questions": 15,
+      "unknown": 6,
+      "remaining": 8,
+      "remaining_names": [
+        "Lacinitriletes",
+        "Converrucosisporites",
+        "Interradispora",
+        "Acanthotriletes",
+        "Lukugasporites",
+        "Conperiplecospora",
+        "Costaspora",
+        "Procoronaspora"
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Foveolatisporites",
+      "questions": 8,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Foveolatisporites"
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Brochotriletes",
+      "questions": 12,
+      "unknown": 0,
+      "remaining": 2,
+      "remaining_names": [
+        "Brochotriletes",
+        "Procoronaspora"
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Microfoveolatispora",
+      "questions": 14,
+      "unknown": 2,
+      "remaining": 3,
+      "remaining_names": [
+        "Conperiplecospora",
+        "Microfoveolatispora",
+        "Procoronaspora"
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Foveoretusispora",
+      "questions": 14,
+      "unknown": 5,
+      "remaining": 8,
+      "remaining_names": [
+        "Chanovejisporites",
+        "Tuberculiretusispora",
+        "Phidiaesporites",
+        "Microreticulatisporites",
+        "Dictyotriletes",
+        "Foveoretusispora",
+        "Neoraistrickia",
+        "Secarisporites"
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Convolutispora",
+      "questions": 12,
+      "unknown": 2,
+      "remaining": 4,
+      "remaining_names": [
+        "Conperiplecospora",
+        "Convolutispora",
+        "Vermiculispora",
+        "Corystisporites"
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Vermiculispora",
+      "questions": 10,
+      "unknown": 1,
+      "remaining": 3,
+      "remaining_names": [
+        "Convolutispora",
+        "Vermiculispora",
+        "Procoronaspora"
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Pustulatisporites",
+      "questions": 15,
+      "unknown": 3,
+      "remaining": 5,
+      "remaining_names": [
+        "Granulatisporites",
+        "Converrucosisporites",
+        "Jugisporis",
+        "Pustulatisporites",
+        "Procoronaspora"
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Mixtatispora",
+      "questions": 15,
+      "unknown": 2,
+      "remaining": 4,
+      "remaining_names": [
+        "Anaplanisporites",
+        "Mixtatispora",
+        "Procoronaspora",
+        "Reinschospora"
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Apiculiretusispora",
+      "questions": 17,
+      "unknown": 4,
+      "remaining": 4,
+      "remaining_names": [
+        "Pulvinispora",
+        "Jugisporis",
+        "Ancamptotriletes",
+        "Apiculiretusispora"
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Raistrickia",
+      "questions": 14,
+      "unknown": 2,
+      "remaining": 5,
+      "remaining_names": [
+        "Cyclobaculisporites",
+        "Spinosisporites",
+        "Raistrickia",
+        "Secarisporites",
+        "Umbonatisporites"
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Neoraistrickia",
+      "questions": 15,
+      "unknown": 4,
+      "remaining": 5,
+      "remaining_names": [
+        "Cyclobaculisporites",
+        "Spinosisporites",
+        "Foveoretusispora",
+        "Neoraistrickia",
+        "Secarisporites"
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Cadiospora",
+      "questions": 8,
+      "unknown": 0,
+      "remaining": 2,
+      "remaining_names": [
+        "Cadiospora",
+        "Hystricosporites"
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Corystisporites",
+      "questions": 15,
+      "unknown": 8,
+      "remaining": 10,
+      "remaining_names": [
+        "Tuberculispora",
+        "Lophotriletes",
+        "Chanovejisporites",
+        "Verrucosisporites",
+        "Converrucosisporites",
+        "Schopfites",
+        "Conperiplecospora",
+        "Convolutispora",
+        "Corystisporites",
+        "Bullatisporites"
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Procoronaspora",
+      "questions": 21,
+      "unknown": 16,
+      "remaining": 23,
+      "remaining_names": [
+        "Leiotriletes",
+        "Granulatisporites",
+        "Lacinitriletes",
+        "Lophotriletes",
+        "Chanovejisporites",
+        "Converrucosisporites",
+        "Horriditriletes",
+        "Microbaculispora",
+        "Pilosisporites",
+        "Acanthotriletes",
+        "Lukugasporites",
+        "Jugisporis",
+        "Microreticulatisporites",
+        "Dictyotriletes",
+        "Conperiplecospora",
+        "Costaspora",
+        "Brochotriletes",
+        "Microfoveolatispora",
+        "Vermiculispora",
+        "Pustulatisporites",
+        "Mixtatispora",
+        "Procoronaspora",
+        "Reinschospora"
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Dibolisporites",
+      "questions": 14,
+      "unknown": 1,
+      "remaining": 1,
+      "remaining_names": [
+        "Dibolisporites"
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Reinschospora",
+      "questions": 13,
+      "unknown": 1,
+      "remaining": 4,
+      "remaining_names": [
+        "Pilosisporites",
+        "Mixtatispora",
+        "Procoronaspora",
+        "Reinschospora"
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Secarisporites",
+      "questions": 18,
+      "unknown": 4,
+      "remaining": 7,
+      "remaining_names": [
+        "Microreticulatisporites",
+        "Dictyotriletes",
+        "Foveoretusispora",
+        "Raistrickia",
+        "Neoraistrickia",
+        "Secarisporites",
+        "Umbonatisporites"
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Biornatispora",
+      "questions": 8,
+      "unknown": 1,
+      "remaining": 5,
+      "remaining_names": [
+        "Microreticulatisporites",
+        "Anreticulispora",
+        "Dictyotriletes",
+        "Reticuliretusispora",
+        "Biornatispora"
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Acinosporites",
+      "questions": 9,
+      "unknown": 2,
+      "remaining": 4,
+      "remaining_names": [
+        "Rugulispora",
+        "Emphanisporites",
+        "Acinosporites",
+        "Hystricosporites"
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Hystricosporites",
+      "questions": 8,
+      "unknown": 1,
+      "remaining": 3,
+      "remaining_names": [
+        "Cadiospora",
+        "Acinosporites",
+        "Hystricosporites"
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Umbonatisporites",
+      "questions": 14,
+      "unknown": 6,
+      "remaining": 9,
+      "remaining_names": [
+        "Cyclogranisporites",
+        "Tuberculiretusispora",
+        "Cyclobaculisporites",
+        "Cyclopileatispora",
+        "Spinosisporites",
+        "Apiculatisporis",
+        "Raistrickia",
+        "Secarisporites",
+        "Umbonatisporites"
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Bullatisporites",
+      "questions": 10,
+      "unknown": 0,
+      "remaining": 2,
+      "remaining_names": [
+        "Corystisporites",
+        "Bullatisporites"
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Brevitriletes",
+      "questions": 9,
+      "unknown": 2,
+      "remaining": 3,
+      "remaining_names": [
+        "Spinosisporites",
+        "Lukugasporites",
+        "Brevitriletes"
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Stenozonotriletes",
+      "questions": 8,
+      "unknown": 0,
+      "remaining": 3,
+      "remaining_names": [
+        "Stenozonotriletes",
+        "Euryzonotriletes",
+        "Leiozonotriletes"
+      ]
+    },
+    {
+      "id": 71,
+      "name": "Lophozonotriletes",
+      "questions": 12,
+      "unknown": 2,
+      "remaining": 8,
+      "remaining_names": [
+        "Lophozonotriletes",
+        "Bascaudaspora",
+        "Archaeotriletes",
+        "Hymenozonotriletes",
+        "Tripartites",
+        "Chelinospora",
+        "Cyrtospora",
+        "Chomotriletes"
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Crassispora",
+      "questions": 9,
+      "unknown": 0,
+      "remaining": 5,
+      "remaining_names": [
+        "Crassispora",
+        "Aneurospora",
+        "Hymenozonotriletes",
+        "Tripartites",
+        "Chomotriletes"
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Nevesisporites",
+      "questions": 10,
+      "unknown": 0,
+      "remaining": 2,
+      "remaining_names": [
+        "Nevesisporites",
+        "Simozonotriletes"
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Ambitisporites",
+      "questions": 12,
+      "unknown": 4,
+      "remaining": 5,
+      "remaining_names": [
+        "Ambitisporites",
+        "Simozonotriletes",
+        "Potoniespores",
+        "Pygmaeisporites",
+        "Psilohymena"
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Gravisporites",
+      "questions": 12,
+      "unknown": 3,
+      "remaining": 5,
+      "remaining_names": [
+        "Gravisporites",
+        "Gibberulaspora",
+        "Callisporites",
+        "Camptozonotriletes",
+        "Tripartites"
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Acanthozonotriletes",
+      "questions": 13,
+      "unknown": 1,
+      "remaining": 4,
+      "remaining_names": [
+        "Acanthozonotriletes",
+        "Krauselisporites",
+        "Tripartites",
+        "Chomotriletes"
+      ]
+    },
+    {
+      "id": 77,
+      "name": "Aneurospora",
+      "questions": 13,
+      "unknown": 6,
+      "remaining": 10,
+      "remaining_names": [
+        "Crassispora",
+        "Aneurospora",
+        "Simozonotriletes",
+        "Knoxisporites",
+        "Hymenozonotriletes",
+        "Diatomozonotriletes",
+        "Tripartites",
+        "Chelinospora",
+        "Chomotriletes",
+        "Cornispora"
+      ]
+    },
+    {
+      "id": 78,
+      "name": "Streelispora",
+      "questions": 12,
+      "unknown": 4,
+      "remaining": 10,
+      "remaining_names": [
+        "Streelispora",
+        "Simozonotriletes",
+        "Bellispores",
+        "Zonocoronaspora",
+        "Hymenozonotriletes",
+        "Krauselisporites",
+        "Tripartites",
+        "Triquitrites",
+        "Mooreisporites",
+        "Cyrtospora"
+      ]
+    },
+    {
+      "id": 79,
+      "name": "Synorisporites",
+      "questions": 7,
+      "unknown": 0,
+      "remaining": 3,
+      "remaining_names": [
+        "Synorisporites",
+        "Emphanizonosporites",
+        "Ancyrospora"
+      ]
+    },
+    {
+      "id": 80,
+      "name": "Labiadensites",
+      "questions": 9,
+      "unknown": 0,
+      "remaining": 2,
+      "remaining_names": [
+        "Labiadensites",
+        "Euryzonotriletes"
+      ]
+    },
+    {
+      "id": 81,
+      "name": "Euryzonotriletes",
+      "questions": 10,
+      "unknown": 2,
+      "remaining": 6,
+      "remaining_names": [
+        "Stenozonotriletes",
+        "Labiadensites",
+        "Euryzonotriletes",
+        "Clavisporis",
+        "Leiozonotriletes",
+        "Chomotriletes"
+      ]
+    },
+    {
+      "id": 82,
+      "name": "Cincturasporites",
+      "questions": 11,
+      "unknown": 3,
+      "remaining": 4,
+      "remaining_names": [
+        "Cincturasporites",
+        "Simozonotriletes",
+        "Leiozonotriletes",
+        "Perotriletes"
+      ]
+    },
+    {
+      "id": 83,
+      "name": "Simozonotriletes",
+      "questions": 21,
+      "unknown": 13,
+      "remaining": 22,
+      "remaining_names": [
+        "Nevesisporites",
+        "Ambitisporites",
+        "Aneurospora",
+        "Streelispora",
+        "Cincturasporites",
+        "Simozonotriletes",
+        "Bascaudaspora",
+        "Potoniespores",
+        "Murospora",
+        "Leiozonotriletes",
+        "Archaeotriletes",
+        "Zonocoronaspora",
+        "Krauselisporites",
+        "Rotaspora",
+        "Tripartites",
+        "Pygmaeisporites",
+        "Triquitrites",
+        "Chelinospora",
+        "Cyrtospora",
+        "Chomotriletes",
+        "Cornispora",
+        "Psilohymena"
+      ]
+    },
+    {
+      "id": 84,
+      "name": "Gibberulaspora",
+      "questions": 10,
+      "unknown": 2,
+      "remaining": 6,
+      "remaining_names": [
+        "Gravisporites",
+        "Gibberulaspora",
+        "Gorgonispora",
+        "Callisporites",
+        "Hymenozonotriletes",
+        "Camptozonotriletes"
+      ]
+    },
+    {
+      "id": 85,
+      "name": "Gorgonispora",
+      "questions": 9,
+      "unknown": 2,
+      "remaining": 6,
+      "remaining_names": [
+        "Gibberulaspora",
+        "Gorgonispora",
+        "Callisporites",
+        "Archaeotriletes",
+        "Camptozonotriletes",
+        "Samarisporites"
+      ]
+    },
+    {
+      "id": 86,
+      "name": "Clavisporis",
+      "questions": 13,
+      "unknown": 2,
+      "remaining": 4,
+      "remaining_names": [
+        "Euryzonotriletes",
+        "Clavisporis",
+        "Chelinospora",
+        "Chomotriletes"
+      ]
+    },
+    {
+      "id": 87,
+      "name": "Bascaudaspora",
+      "questions": 9,
+      "unknown": 1,
+      "remaining": 7,
+      "remaining_names": [
+        "Lophozonotriletes",
+        "Simozonotriletes",
+        "Bascaudaspora",
+        "Archaeotriletes",
+        "Tripartites",
+        "Chelinospora",
+        "Chomotriletes"
+      ]
+    },
+    {
+      "id": 88,
+      "name": "Knoxisporites",
+      "questions": 10,
+      "unknown": 0,
+      "remaining": 5,
+      "remaining_names": [
+        "Aneurospora",
+        "Knoxisporites",
+        "Tripartites",
+        "Chelinospora",
+        "Chomotriletes"
+      ]
+    },
+    {
+      "id": 89,
+      "name": "Emphanizonosporites",
+      "questions": 7,
+      "unknown": 1,
+      "remaining": 4,
+      "remaining_names": [
+        "Synorisporites",
+        "Emphanizonosporites",
+        "Ancyrospora",
+        "Hymenozonotriletes"
+      ]
+    },
+    {
+      "id": 90,
+      "name": "Orbisporis",
+      "questions": 6,
+      "unknown": 0,
+      "remaining": 2,
+      "remaining_names": [
+        "Orbisporis",
+        "Archaeotriletes"
+      ]
+    },
+    {
+      "id": 91,
+      "name": "Angulisporites",
+      "questions": 7,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Angulisporites"
+      ]
+    },
+    {
+      "id": 92,
+      "name": "Potoniespores",
+      "questions": 7,
+      "unknown": 0,
+      "remaining": 4,
+      "remaining_names": [
+        "Ambitisporites",
+        "Simozonotriletes",
+        "Potoniespores",
+        "Pygmaeisporites"
+      ]
+    },
+    {
+      "id": 93,
+      "name": "Murospora",
+      "questions": 10,
+      "unknown": 0,
+      "remaining": 3,
+      "remaining_names": [
+        "Simozonotriletes",
+        "Murospora",
+        "Zonocoronaspora"
+      ]
+    },
+    {
+      "id": 94,
+      "name": "Callisporites",
+      "questions": 13,
+      "unknown": 6,
+      "remaining": 10,
+      "remaining_names": [
+        "Gravisporites",
+        "Gibberulaspora",
+        "Gorgonispora",
+        "Callisporites",
+        "Archaeotriletes",
+        "Perotriletes",
+        "Hymenozonotriletes",
+        "Camptozonotriletes",
+        "Samarisporites",
+        "Mooreisporites"
+      ]
+    },
+    {
+      "id": 95,
+      "name": "Bellispores",
+      "questions": 8,
+      "unknown": 0,
+      "remaining": 4,
+      "remaining_names": [
+        "Streelispora",
+        "Bellispores",
+        "Krauselisporites",
+        "Tripartites"
+      ]
+    },
+    {
+      "id": 96,
+      "name": "Leiozonotriletes",
+      "questions": 15,
+      "unknown": 5,
+      "remaining": 5,
+      "remaining_names": [
+        "Stenozonotriletes",
+        "Euryzonotriletes",
+        "Cincturasporites",
+        "Simozonotriletes",
+        "Leiozonotriletes"
+      ]
+    },
+    {
+      "id": 97,
+      "name": "Antissporites",
+      "questions": 7,
+      "unknown": 0,
+      "remaining": 2,
+      "remaining_names": [
+        "Antissporites",
+        "Psilohymena"
+      ]
+    },
+    {
+      "id": 98,
+      "name": "Archaeotriletes",
+      "questions": 14,
+      "unknown": 6,
+      "remaining": 12,
+      "remaining_names": [
+        "Lophozonotriletes",
+        "Simozonotriletes",
+        "Gorgonispora",
+        "Bascaudaspora",
+        "Orbisporis",
+        "Callisporites",
+        "Archaeotriletes",
+        "Hymenozonotriletes",
+        "Camptozonotriletes",
+        "Tripartites",
+        "Chelinospora",
+        "Chomotriletes"
+      ]
+    },
+    {
+      "id": 99,
+      "name": "Ancyrospora",
+      "questions": 7,
+      "unknown": 1,
+      "remaining": 4,
+      "remaining_names": [
+        "Synorisporites",
+        "Emphanizonosporites",
+        "Ancyrospora",
+        "Hymenozonotriletes"
+      ]
+    },
+    {
+      "id": 100,
+      "name": "Zonocoronaspora",
+      "questions": 12,
+      "unknown": 4,
+      "remaining": 6,
+      "remaining_names": [
+        "Streelispora",
+        "Simozonotriletes",
+        "Murospora",
+        "Zonocoronaspora",
+        "Ahrensisporites",
+        "Chomotriletes"
+      ]
+    },
+    {
+      "id": 101,
+      "name": "Veliferaspora",
+      "questions": 9,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Veliferaspora"
+      ]
+    },
+    {
+      "id": 102,
+      "name": "Perotriletes",
+      "questions": 8,
+      "unknown": 2,
+      "remaining": 5,
+      "remaining_names": [
+        "Cincturasporites",
+        "Callisporites",
+        "Perotriletes",
+        "Camptozonotriletes",
+        "Samarisporites"
+      ]
+    },
+    {
+      "id": 103,
+      "name": "Hymenozonotriletes",
+      "questions": 27,
+      "unknown": 13,
+      "remaining": 20,
+      "remaining_names": [
+        "Lophozonotriletes",
+        "Crassispora",
+        "Aneurospora",
+        "Streelispora",
+        "Gibberulaspora",
+        "Emphanizonosporites",
+        "Callisporites",
+        "Archaeotriletes",
+        "Ancyrospora",
+        "Hymenozonotriletes",
+        "Camptozonotriletes",
+        "Krauselisporites",
+        "Samarisporites",
+        "Camarozonotriletes",
+        "Tripartites",
+        "Ahrensisporites",
+        "Triquitrites",
+        "Mooreisporites",
+        "Cyrtospora",
+        "Chomotriletes"
+      ]
+    },
+    {
+      "id": 104,
+      "name": "Camptozonotriletes",
+      "questions": 13,
+      "unknown": 7,
+      "remaining": 11,
+      "remaining_names": [
+        "Gravisporites",
+        "Gibberulaspora",
+        "Gorgonispora",
+        "Callisporites",
+        "Archaeotriletes",
+        "Perotriletes",
+        "Hymenozonotriletes",
+        "Camptozonotriletes",
+        "Stellispora",
+        "Samarisporites",
+        "Mooreisporites"
+      ]
+    },
+    {
+      "id": 105,
+      "name": "Stellispora",
+      "questions": 9,
+      "unknown": 0,
+      "remaining": 3,
+      "remaining_names": [
+        "Camptozonotriletes",
+        "Stellispora",
+        "Samarisporites"
+      ]
+    },
+    {
+      "id": 106,
+      "name": "Krauselisporites",
+      "questions": 11,
+      "unknown": 4,
+      "remaining": 10,
+      "remaining_names": [
+        "Acanthozonotriletes",
+        "Streelispora",
+        "Simozonotriletes",
+        "Bellispores",
+        "Hymenozonotriletes",
+        "Krauselisporites",
+        "Tripartites",
+        "Triquitrites",
+        "Mooreisporites",
+        "Cyrtospora"
+      ]
+    },
+    {
+      "id": 107,
+      "name": "Samarisporites",
+      "questions": 10,
+      "unknown": 4,
+      "remaining": 8,
+      "remaining_names": [
+        "Gorgonispora",
+        "Callisporites",
+        "Perotriletes",
+        "Hymenozonotriletes",
+        "Camptozonotriletes",
+        "Stellispora",
+        "Samarisporites",
+        "Mooreisporites"
+      ]
+    },
+    {
+      "id": 108,
+      "name": "Pulvinizonotriletes",
+      "questions": 8,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Pulvinizonotriletes"
+      ]
+    },
+    {
+      "id": 109,
+      "name": "Breconisporites",
+      "questions": 13,
+      "unknown": 1,
+      "remaining": 1,
+      "remaining_names": [
+        "Breconisporites"
+      ]
+    },
+    {
+      "id": 110,
+      "name": "Camarozonotriletes",
+      "questions": 10,
+      "unknown": 3,
+      "remaining": 5,
+      "remaining_names": [
+        "Hymenozonotriletes",
+        "Camarozonotriletes",
+        "Tripartites",
+        "Ahrensisporites",
+        "Chomotriletes"
+      ]
+    },
+    {
+      "id": 111,
+      "name": "Rotaspora",
+      "questions": 9,
+      "unknown": 0,
+      "remaining": 2,
+      "remaining_names": [
+        "Simozonotriletes",
+        "Rotaspora"
+      ]
+    },
+    {
+      "id": 112,
+      "name": "Diatomozonotriletes",
+      "questions": 8,
+      "unknown": 0,
+      "remaining": 4,
+      "remaining_names": [
+        "Aneurospora",
+        "Diatomozonotriletes",
+        "Tripartites",
+        "Chomotriletes"
+      ]
+    },
+    {
+      "id": 113,
+      "name": "Tripartites",
+      "questions": 22,
+      "unknown": 16,
+      "remaining": 23,
+      "remaining_names": [
+        "Lophozonotriletes",
+        "Crassispora",
+        "Gravisporites",
+        "Acanthozonotriletes",
+        "Aneurospora",
+        "Streelispora",
+        "Simozonotriletes",
+        "Bascaudaspora",
+        "Knoxisporites",
+        "Bellispores",
+        "Archaeotriletes",
+        "Hymenozonotriletes",
+        "Krauselisporites",
+        "Camarozonotriletes",
+        "Diatomozonotriletes",
+        "Tripartites",
+        "Ahrensisporites",
+        "Triquitrites",
+        "Mooreisporites",
+        "Chelinospora",
+        "Cyrtospora",
+        "Chomotriletes",
+        "Cornispora"
+      ]
+    },
+    {
+      "id": 114,
+      "name": "Pygmaeisporites",
+      "questions": 7,
+      "unknown": 0,
+      "remaining": 4,
+      "remaining_names": [
+        "Ambitisporites",
+        "Simozonotriletes",
+        "Potoniespores",
+        "Pygmaeisporites"
+      ]
+    },
+    {
+      "id": 115,
+      "name": "Ahrensisporites",
+      "questions": 15,
+      "unknown": 4,
+      "remaining": 5,
+      "remaining_names": [
+        "Zonocoronaspora",
+        "Hymenozonotriletes",
+        "Camarozonotriletes",
+        "Tripartites",
+        "Ahrensisporites"
+      ]
+    },
+    {
+      "id": 116,
+      "name": "Triquitrites",
+      "questions": 10,
+      "unknown": 1,
+      "remaining": 8,
+      "remaining_names": [
+        "Streelispora",
+        "Simozonotriletes",
+        "Hymenozonotriletes",
+        "Krauselisporites",
+        "Tripartites",
+        "Triquitrites",
+        "Mooreisporites",
+        "Cyrtospora"
+      ]
+    },
+    {
+      "id": 117,
+      "name": "Mooreisporites",
+      "questions": 13,
+      "unknown": 3,
+      "remaining": 10,
+      "remaining_names": [
+        "Streelispora",
+        "Callisporites",
+        "Hymenozonotriletes",
+        "Camptozonotriletes",
+        "Krauselisporites",
+        "Samarisporites",
+        "Tripartites",
+        "Triquitrites",
+        "Mooreisporites",
+        "Cyrtospora"
+      ]
+    },
+    {
+      "id": 118,
+      "name": "Chelinospora",
+      "questions": 18,
+      "unknown": 8,
+      "remaining": 10,
+      "remaining_names": [
+        "Lophozonotriletes",
+        "Aneurospora",
+        "Simozonotriletes",
+        "Clavisporis",
+        "Bascaudaspora",
+        "Knoxisporites",
+        "Archaeotriletes",
+        "Tripartites",
+        "Chelinospora",
+        "Chomotriletes"
+      ]
+    },
+    {
+      "id": 119,
+      "name": "Cyrtospora",
+      "questions": 16,
+      "unknown": 4,
+      "remaining": 10,
+      "remaining_names": [
+        "Lophozonotriletes",
+        "Streelispora",
+        "Simozonotriletes",
+        "Hymenozonotriletes",
+        "Krauselisporites",
+        "Tripartites",
+        "Triquitrites",
+        "Mooreisporites",
+        "Cyrtospora",
+        "Chomotriletes"
+      ]
+    },
+    {
+      "id": 120,
+      "name": "Chomotriletes",
+      "questions": 23,
+      "unknown": 16,
+      "remaining": 19,
+      "remaining_names": [
+        "Lophozonotriletes",
+        "Crassispora",
+        "Acanthozonotriletes",
+        "Aneurospora",
+        "Euryzonotriletes",
+        "Simozonotriletes",
+        "Clavisporis",
+        "Bascaudaspora",
+        "Knoxisporites",
+        "Archaeotriletes",
+        "Zonocoronaspora",
+        "Hymenozonotriletes",
+        "Camarozonotriletes",
+        "Diatomozonotriletes",
+        "Tripartites",
+        "Chelinospora",
+        "Cyrtospora",
+        "Chomotriletes",
+        "Cornispora"
+      ]
+    },
+    {
+      "id": 121,
+      "name": "Cornispora",
+      "questions": 9,
+      "unknown": 0,
+      "remaining": 5,
+      "remaining_names": [
+        "Aneurospora",
+        "Simozonotriletes",
+        "Tripartites",
+        "Chomotriletes",
+        "Cornispora"
+      ]
+    },
+    {
+      "id": 122,
+      "name": "Grumosisporites",
+      "questions": 14,
+      "unknown": 6,
+      "remaining": 2,
+      "remaining_names": [
+        "Grumosisporites",
+        "Vestispora"
+      ]
+    },
+    {
+      "id": 123,
+      "name": "Asperispora",
+      "questions": 13,
+      "unknown": 4,
+      "remaining": 9,
+      "remaining_names": [
+        "Asperispora",
+        "Vallatisporites",
+        "Elenisporis",
+        "Spinozonotriletes",
+        "Calyptosporites",
+        "Potonieitriradites",
+        "Cymbosporites",
+        "Lundbladispora",
+        "Geminospora"
+      ]
+    },
+    {
+      "id": 124,
+      "name": "Clivosispora",
+      "questions": 10,
+      "unknown": 2,
+      "remaining": 8,
+      "remaining_names": [
+        "Clivosispora",
+        "Savitrisporites",
+        "Densosporites",
+        "Vallatisporites",
+        "Radiizonates",
+        "Cymbosporites",
+        "Rimosisporis",
+        "Geminospora"
+      ]
+    },
+    {
+      "id": 125,
+      "name": "Savitrisporites",
+      "questions": 10,
+      "unknown": 3,
+      "remaining": 9,
+      "remaining_names": [
+        "Clivosispora",
+        "Savitrisporites",
+        "Densosporites",
+        "Vallatisporites",
+        "Spinozonotriletes",
+        "Cingulizonates",
+        "Radiizonates",
+        "Lycospora",
+        "Cirratriradites"
+      ]
+    },
+    {
+      "id": 126,
+      "name": "Anulatisporites",
+      "questions": 9,
+      "unknown": 2,
+      "remaining": 4,
+      "remaining_names": [
+        "Anulatisporites",
+        "Psilohymena",
+        "Cingulizonates",
+        "Colatisporites"
+      ]
+    },
+    {
+      "id": 127,
+      "name": "Cristatisporites",
+      "questions": 8,
+      "unknown": 1,
+      "remaining": 4,
+      "remaining_names": [
+        "Cristatisporites",
+        "Vallatisporites",
+        "Cymbosporites",
+        "Geminospora"
+      ]
+    },
+    {
+      "id": 128,
+      "name": "Tumulispora",
+      "questions": 16,
+      "unknown": 6,
+      "remaining": 13,
+      "remaining_names": [
+        "Tumulispora",
+        "Psilohymena",
+        "Lycospora",
+        "Cirratriradites",
+        "Cymbosporites",
+        "Rimosisporis",
+        "Endoculeospora",
+        "Lundbladispora",
+        "Retispora",
+        "Geminospora",
+        "Colatisporites",
+        "Lanatisporis",
+        "Alatisporites"
+      ]
+    },
+    {
+      "id": 129,
+      "name": "Densosporites",
+      "questions": 15,
+      "unknown": 6,
+      "remaining": 15,
+      "remaining_names": [
+        "Clivosispora",
+        "Savitrisporites",
+        "Densosporites",
+        "Vallatisporites",
+        "Elenisporis",
+        "Scabrosisporites",
+        "Spinozonotriletes",
+        "Grandispora",
+        "Cingulizonates",
+        "Radiizonates",
+        "Cymbosporites",
+        "Rimosisporis",
+        "Geminospora",
+        "Lanatisporis",
+        "Alatisporites"
+      ]
+    },
+    {
+      "id": 130,
+      "name": "Vallatisporites",
+      "questions": 16,
+      "unknown": 8,
+      "remaining": 20,
+      "remaining_names": [
+        "Asperispora",
+        "Clivosispora",
+        "Savitrisporites",
+        "Cristatisporites",
+        "Densosporites",
+        "Vallatisporites",
+        "Elenisporis",
+        "Scabrosisporites",
+        "Spinozonotriletes",
+        "Grandispora",
+        "Calyptosporites",
+        "Membrabaculisporis",
+        "Cingulizonates",
+        "Radiizonates",
+        "Potonieitriradites",
+        "Cymbosporites",
+        "Rimosisporis",
+        "Contagisporites",
+        "Geminospora",
+        "Lanatisporis"
+      ]
+    },
+    {
+      "id": 131,
+      "name": "Elenisporis",
+      "questions": 15,
+      "unknown": 4,
+      "remaining": 13,
+      "remaining_names": [
+        "Asperispora",
+        "Densosporites",
+        "Vallatisporites",
+        "Elenisporis",
+        "Spinozonotriletes",
+        "Grandispora",
+        "Cingulizonates",
+        "Cymbosporites",
+        "Contagisporites",
+        "Retispora",
+        "Geminospora",
+        "Lanatisporis",
+        "Vestispora"
+      ]
+    },
+    {
+      "id": 132,
+      "name": "Scabrosisporites",
+      "questions": 13,
+      "unknown": 2,
+      "remaining": 10,
+      "remaining_names": [
+        "Densosporites",
+        "Vallatisporites",
+        "Scabrosisporites",
+        "Grandispora",
+        "Cingulizonates",
+        "Cymbosporites",
+        "Rimosisporis",
+        "Geminospora",
+        "Lanatisporis",
+        "Vestispora"
+      ]
+    },
+    {
+      "id": 133,
+      "name": "Diaphanospora",
+      "questions": 8,
+      "unknown": 1,
+      "remaining": 4,
+      "remaining_names": [
+        "Diaphanospora",
+        "Cymbosporites",
+        "Geminospora",
+        "Vestispora"
+      ]
+    },
+    {
+      "id": 134,
+      "name": "Spinozonotriletes",
+      "questions": 16,
+      "unknown": 5,
+      "remaining": 16,
+      "remaining_names": [
+        "Asperispora",
+        "Savitrisporites",
+        "Densosporites",
+        "Vallatisporites",
+        "Elenisporis",
+        "Spinozonotriletes",
+        "Grandispora",
+        "Calyptosporites",
+        "Cingulizonates",
+        "Radiizonates",
+        "Potonieitriradites",
+        "Cymbosporites",
+        "Rimosisporis",
+        "Contagisporites",
+        "Geminospora",
+        "Lanatisporis"
+      ]
+    },
+    {
+      "id": 135,
+      "name": "Sinuosisporis",
+      "questions": 8,
+      "unknown": 0,
+      "remaining": 4,
+      "remaining_names": [
+        "Sinuosisporis",
+        "Cymbosporites",
+        "Geminospora",
+        "Vestispora"
+      ]
+    },
+    {
+      "id": 136,
+      "name": "Grandispora",
+      "questions": 14,
+      "unknown": 4,
+      "remaining": 13,
+      "remaining_names": [
+        "Densosporites",
+        "Vallatisporites",
+        "Elenisporis",
+        "Scabrosisporites",
+        "Spinozonotriletes",
+        "Grandispora",
+        "Cingulizonates",
+        "Cymbosporites",
+        "Rimosisporis",
+        "Retispora",
+        "Geminospora",
+        "Lanatisporis",
+        "Vestispora"
+      ]
+    },
+    {
+      "id": 137,
+      "name": "Auroraspora",
+      "questions": 9,
+      "unknown": 1,
+      "remaining": 1,
+      "remaining_names": [
+        "Auroraspora"
+      ]
+    },
+    {
+      "id": 138,
+      "name": "Psilohymena",
+      "questions": 16,
+      "unknown": 7,
+      "remaining": 9,
+      "remaining_names": [
+        "Ambitisporites",
+        "Simozonotriletes",
+        "Antissporites",
+        "Anulatisporites",
+        "Tumulispora",
+        "Psilohymena",
+        "Tholisporites",
+        "Colatisporites",
+        "Vestispora"
+      ]
+    },
+    {
+      "id": 139,
+      "name": "Discernisporites",
+      "questions": 9,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Discernisporites"
+      ]
+    },
+    {
+      "id": 140,
+      "name": "Calyptosporites",
+      "questions": 10,
+      "unknown": 0,
+      "remaining": 4,
+      "remaining_names": [
+        "Asperispora",
+        "Vallatisporites",
+        "Spinozonotriletes",
+        "Calyptosporites"
+      ]
+    },
+    {
+      "id": 141,
+      "name": "Monilospora",
+      "questions": 9,
+      "unknown": 0,
+      "remaining": 3,
+      "remaining_names": [
+        "Monilospora",
+        "Cirratriradites",
+        "Alatisporites"
+      ]
+    },
+    {
+      "id": 142,
+      "name": "Membrabaculisporis",
+      "questions": 11,
+      "unknown": 1,
+      "remaining": 3,
+      "remaining_names": [
+        "Vallatisporites",
+        "Membrabaculisporis",
+        "Cymbosporites"
+      ]
+    },
+    {
+      "id": 143,
+      "name": "Cingulizonates",
+      "questions": 16,
+      "unknown": 9,
+      "remaining": 18,
+      "remaining_names": [
+        "Savitrisporites",
+        "Anulatisporites",
+        "Densosporites",
+        "Vallatisporites",
+        "Elenisporis",
+        "Scabrosisporites",
+        "Spinozonotriletes",
+        "Grandispora",
+        "Cingulizonates",
+        "Radiizonates",
+        "Tholisporites",
+        "Cymbosporites",
+        "Rimosisporis",
+        "Retispora",
+        "Geminospora",
+        "Lanatisporis",
+        "Alatisporites",
+        "Vestispora"
+      ]
+    },
+    {
+      "id": 144,
+      "name": "Radiizonates",
+      "questions": 10,
+      "unknown": 3,
+      "remaining": 9,
+      "remaining_names": [
+        "Clivosispora",
+        "Savitrisporites",
+        "Densosporites",
+        "Vallatisporites",
+        "Spinozonotriletes",
+        "Cingulizonates",
+        "Radiizonates",
+        "Lycospora",
+        "Cirratriradites"
+      ]
+    },
+    {
+      "id": 145,
+      "name": "Lycospora",
+      "questions": 14,
+      "unknown": 4,
+      "remaining": 13,
+      "remaining_names": [
+        "Savitrisporites",
+        "Tumulispora",
+        "Radiizonates",
+        "Lycospora",
+        "Cirratriradites",
+        "Cymbosporites",
+        "Rimosisporis",
+        "Endoculeospora",
+        "Densoisporites",
+        "Lundbladispora",
+        "Geminospora",
+        "Lanatisporis",
+        "Alatisporites"
+      ]
+    },
+    {
+      "id": 146,
+      "name": "Cirratriradites",
+      "questions": 14,
+      "unknown": 5,
+      "remaining": 14,
+      "remaining_names": [
+        "Savitrisporites",
+        "Tumulispora",
+        "Monilospora",
+        "Radiizonates",
+        "Lycospora",
+        "Cirratriradites",
+        "Cymbosporites",
+        "Rimosisporis",
+        "Endoculeospora",
+        "Densoisporites",
+        "Lundbladispora",
+        "Geminospora",
+        "Lanatisporis",
+        "Alatisporites"
+      ]
+    },
+    {
+      "id": 147,
+      "name": "Potonieitriradites",
+      "questions": 8,
+      "unknown": 0,
+      "remaining": 4,
+      "remaining_names": [
+        "Asperispora",
+        "Vallatisporites",
+        "Spinozonotriletes",
+        "Potonieitriradites"
+      ]
+    },
+    {
+      "id": 148,
+      "name": "Tholisporites",
+      "questions": 8,
+      "unknown": 2,
+      "remaining": 5,
+      "remaining_names": [
+        "Psilohymena",
+        "Cingulizonates",
+        "Tholisporites",
+        "Colatisporites",
+        "Vestispora"
+      ]
+    },
+    {
+      "id": 149,
+      "name": "Cymbosporites",
+      "questions": 17,
+      "unknown": 11,
+      "remaining": 24,
+      "remaining_names": [
+        "Asperispora",
+        "Clivosispora",
+        "Cristatisporites",
+        "Tumulispora",
+        "Densosporites",
+        "Vallatisporites",
+        "Elenisporis",
+        "Scabrosisporites",
+        "Diaphanospora",
+        "Spinozonotriletes",
+        "Sinuosisporis",
+        "Grandispora",
+        "Membrabaculisporis",
+        "Cingulizonates",
+        "Lycospora",
+        "Cirratriradites",
+        "Cymbosporites",
+        "Rimosisporis",
+        "Contagisporites",
+        "Endoculeospora",
+        "Retispora",
+        "Geminospora",
+        "Lanatisporis",
+        "Vestispora"
+      ]
+    },
+    {
+      "id": 150,
+      "name": "Rimosisporis",
+      "questions": 15,
+      "unknown": 7,
+      "remaining": 17,
+      "remaining_names": [
+        "Clivosispora",
+        "Tumulispora",
+        "Densosporites",
+        "Vallatisporites",
+        "Scabrosisporites",
+        "Spinozonotriletes",
+        "Grandispora",
+        "Cingulizonates",
+        "Lycospora",
+        "Cirratriradites",
+        "Cymbosporites",
+        "Rimosisporis",
+        "Endoculeospora",
+        "Retispora",
+        "Geminospora",
+        "Lanatisporis",
+        "Vestispora"
+      ]
+    },
+    {
+      "id": 151,
+      "name": "Contagisporites",
+      "questions": 12,
+      "unknown": 1,
+      "remaining": 6,
+      "remaining_names": [
+        "Vallatisporites",
+        "Elenisporis",
+        "Spinozonotriletes",
+        "Cymbosporites",
+        "Contagisporites",
+        "Geminospora"
+      ]
+    },
+    {
+      "id": 152,
+      "name": "Endoculeospora",
+      "questions": 10,
+      "unknown": 2,
+      "remaining": 10,
+      "remaining_names": [
+        "Tumulispora",
+        "Lycospora",
+        "Cirratriradites",
+        "Cymbosporites",
+        "Rimosisporis",
+        "Endoculeospora",
+        "Retispora",
+        "Geminospora",
+        "Lanatisporis",
+        "Vestispora"
+      ]
+    },
+    {
+      "id": 153,
+      "name": "Densoisporites",
+      "questions": 8,
+      "unknown": 1,
+      "remaining": 4,
+      "remaining_names": [
+        "Lycospora",
+        "Cirratriradites",
+        "Densoisporites",
+        "Alatisporites"
+      ]
+    },
+    {
+      "id": 154,
+      "name": "Lundbladispora",
+      "questions": 8,
+      "unknown": 1,
+      "remaining": 5,
+      "remaining_names": [
+        "Asperispora",
+        "Tumulispora",
+        "Lycospora",
+        "Cirratriradites",
+        "Lundbladispora"
+      ]
+    },
+    {
+      "id": 155,
+      "name": "Endosporites",
+      "questions": 8,
+      "unknown": 1,
+      "remaining": 1,
+      "remaining_names": [
+        "Endosporites"
+      ]
+    },
+    {
+      "id": 156,
+      "name": "Retispora",
+      "questions": 15,
+      "unknown": 3,
+      "remaining": 10,
+      "remaining_names": [
+        "Tumulispora",
+        "Elenisporis",
+        "Grandispora",
+        "Cingulizonates",
+        "Cymbosporites",
+        "Rimosisporis",
+        "Endoculeospora",
+        "Retispora",
+        "Geminospora",
+        "Lanatisporis"
+      ]
+    },
+    {
+      "id": 157,
+      "name": "Schulzospora",
+      "questions": 9,
+      "unknown": 2,
+      "remaining": 1,
+      "remaining_names": [
+        "Schulzospora"
+      ]
+    },
+    {
+      "id": 158,
+      "name": "Geminospora",
+      "questions": 17,
+      "unknown": 10,
+      "remaining": 23,
+      "remaining_names": [
+        "Asperispora",
+        "Clivosispora",
+        "Cristatisporites",
+        "Tumulispora",
+        "Densosporites",
+        "Vallatisporites",
+        "Elenisporis",
+        "Scabrosisporites",
+        "Diaphanospora",
+        "Spinozonotriletes",
+        "Sinuosisporis",
+        "Grandispora",
+        "Cingulizonates",
+        "Lycospora",
+        "Cirratriradites",
+        "Cymbosporites",
+        "Rimosisporis",
+        "Contagisporites",
+        "Endoculeospora",
+        "Retispora",
+        "Geminospora",
+        "Lanatisporis",
+        "Vestispora"
+      ]
+    },
+    {
+      "id": 159,
+      "name": "Colatisporites",
+      "questions": 9,
+      "unknown": 2,
+      "remaining": 6,
+      "remaining_names": [
+        "Anulatisporites",
+        "Tumulispora",
+        "Psilohymena",
+        "Tholisporites",
+        "Colatisporites",
+        "Vestispora"
+      ]
+    },
+    {
+      "id": 160,
+      "name": "Lanatisporis",
+      "questions": 15,
+      "unknown": 6,
+      "remaining": 17,
+      "remaining_names": [
+        "Tumulispora",
+        "Densosporites",
+        "Vallatisporites",
+        "Elenisporis",
+        "Scabrosisporites",
+        "Spinozonotriletes",
+        "Grandispora",
+        "Cingulizonates",
+        "Lycospora",
+        "Cirratriradites",
+        "Cymbosporites",
+        "Rimosisporis",
+        "Endoculeospora",
+        "Retispora",
+        "Geminospora",
+        "Lanatisporis",
+        "Vestispora"
+      ]
+    },
+    {
+      "id": 161,
+      "name": "Rugospora",
+      "questions": 8,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Rugospora"
+      ]
+    },
+    {
+      "id": 162,
+      "name": "Rhabdosporites",
+      "questions": 7,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Rhabdosporites"
+      ]
+    },
+    {
+      "id": 163,
+      "name": "Remysporites",
+      "questions": 9,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Remysporites"
+      ]
+    },
+    {
+      "id": 164,
+      "name": "Alatisporites",
+      "questions": 12,
+      "unknown": 5,
+      "remaining": 8,
+      "remaining_names": [
+        "Tumulispora",
+        "Densosporites",
+        "Monilospora",
+        "Cingulizonates",
+        "Lycospora",
+        "Cirratriradites",
+        "Densoisporites",
+        "Alatisporites"
+      ]
+    },
+    {
+      "id": 165,
+      "name": "Laevigatosporites",
+      "questions": 5,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Laevigatosporites"
+      ]
+    },
+    {
+      "id": 166,
+      "name": "Extrapunctatosporis",
+      "questions": 5,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Extrapunctatosporis"
+      ]
+    },
+    {
+      "id": 167,
+      "name": "Spinosporites",
+      "questions": 6,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Spinosporites"
+      ]
+    },
+    {
+      "id": 168,
+      "name": "Striatosporites",
+      "questions": 5,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Striatosporites"
+      ]
+    },
+    {
+      "id": 169,
+      "name": "Devonomonoletes",
+      "questions": 11,
+      "unknown": 5,
+      "remaining": 4,
+      "remaining_names": [
+        "Devonomonoletes",
+        "Tuberculatosporites",
+        "Reticuloidosporites",
+        "Columinisporites"
+      ]
+    },
+    {
+      "id": 170,
+      "name": "Tuberculatosporites",
+      "questions": 7,
+      "unknown": 0,
+      "remaining": 2,
+      "remaining_names": [
+        "Devonomonoletes",
+        "Tuberculatosporites"
+      ]
+    },
+    {
+      "id": 171,
+      "name": "Reticuloidosporites",
+      "questions": 8,
+      "unknown": 0,
+      "remaining": 2,
+      "remaining_names": [
+        "Devonomonoletes",
+        "Reticuloidosporites"
+      ]
+    },
+    {
+      "id": 172,
+      "name": "Columinisporites",
+      "questions": 8,
+      "unknown": 0,
+      "remaining": 2,
+      "remaining_names": [
+        "Devonomonoletes",
+        "Columinisporites"
+      ]
+    },
+    {
+      "id": 173,
+      "name": "Punctatosporites",
+      "questions": 9,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Punctatosporites"
+      ]
+    },
+    {
+      "id": 174,
+      "name": "Thymospora",
+      "questions": 10,
+      "unknown": 2,
+      "remaining": 1,
+      "remaining_names": [
+        "Thymospora"
+      ]
+    },
+    {
+      "id": 175,
+      "name": "Kedomonoletes",
+      "questions": 6,
+      "unknown": 0,
+      "remaining": 3,
+      "remaining_names": [
+        "Kedomonoletes",
+        "Torispora",
+        "Speciososporites"
+      ]
+    },
+    {
+      "id": 176,
+      "name": "Torispora",
+      "questions": 9,
+      "unknown": 4,
+      "remaining": 5,
+      "remaining_names": [
+        "Kedomonoletes",
+        "Torispora",
+        "Speciososporites",
+        "Gemmites",
+        "Pericutosporites"
+      ]
+    },
+    {
+      "id": 177,
+      "name": "Speciososporites",
+      "questions": 6,
+      "unknown": 0,
+      "remaining": 3,
+      "remaining_names": [
+        "Kedomonoletes",
+        "Torispora",
+        "Speciososporites"
+      ]
+    },
+    {
+      "id": 178,
+      "name": "Gemmites",
+      "questions": 7,
+      "unknown": 1,
+      "remaining": 2,
+      "remaining_names": [
+        "Torispora",
+        "Gemmites"
+      ]
+    },
+    {
+      "id": 179,
+      "name": "Pericutosporites",
+      "questions": 6,
+      "unknown": 0,
+      "remaining": 2,
+      "remaining_names": [
+        "Torispora",
+        "Pericutosporites"
+      ]
+    },
+    {
+      "id": 180,
+      "name": "Archaeoperisaccus",
+      "questions": 7,
+      "unknown": 2,
+      "remaining": 1,
+      "remaining_names": [
+        "Archaeoperisaccus"
+      ]
+    },
+    {
+      "id": 181,
+      "name": "Vestispora",
+      "questions": 15,
+      "unknown": 9,
+      "remaining": 16,
+      "remaining_names": [
+        "Grumosisporites",
+        "Elenisporis",
+        "Scabrosisporites",
+        "Diaphanospora",
+        "Sinuosisporis",
+        "Grandispora",
+        "Psilohymena",
+        "Cingulizonates",
+        "Tholisporites",
+        "Cymbosporites",
+        "Rimosisporis",
+        "Endoculeospora",
+        "Geminospora",
+        "Colatisporites",
+        "Lanatisporis",
+        "Vestispora"
+      ]
+    }
+  ],
+  "fixed_runs": [
+    {
+      "id": 1,
+      "name": "Calamospora",
+      "questions": 8,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Calamospora"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Leiotriletes",
+      "questions": 12,
+      "unknown": 2,
+      "remaining": 2,
+      "remaining_names": [
+        "Leiotriletes",
+        "Procoronaspora"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Punctatisporites",
+      "questions": 14,
+      "unknown": 2,
+      "remaining": 2,
+      "remaining_names": [
+        "Punctatisporites",
+        "Trachytriletes"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Trachytriletes",
+      "questions": 14,
+      "unknown": 2,
+      "remaining": 2,
+      "remaining_names": [
+        "Punctatisporites",
+        "Trachytriletes"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Waltzispora",
+      "questions": 8,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Waltzispora"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Retusotriletes",
+      "questions": 13,
+      "unknown": 2,
+      "remaining": 1,
+      "remaining_names": [
+        "Retusotriletes"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Cyclogranisporites",
+      "questions": 10,
+      "unknown": 0,
+      "remaining": 2,
+      "remaining_names": [
+        "Cyclogranisporites",
+        "Umbonatisporites"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Granulatisporites",
+      "questions": 13,
+      "unknown": 0,
+      "remaining": 3,
+      "remaining_names": [
+        "Granulatisporites",
+        "Pustulatisporites",
+        "Procoronaspora"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Lacinitriletes",
+      "questions": 12,
+      "unknown": 0,
+      "remaining": 3,
+      "remaining_names": [
+        "Lacinitriletes",
+        "Costaspora",
+        "Procoronaspora"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Pulvinispora",
+      "questions": 11,
+      "unknown": 0,
+      "remaining": 2,
+      "remaining_names": [
+        "Pulvinispora",
+        "Apiculiretusispora"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Tuberculispora",
+      "questions": 17,
+      "unknown": 3,
+      "remaining": 6,
+      "remaining_names": [
+        "Tuberculispora",
+        "Lophotriletes",
+        "Chanovejisporites",
+        "Tuberculiretusispora",
+        "Conperiplecospora",
+        "Corystisporites"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Lophotriletes",
+      "questions": 16,
+      "unknown": 3,
+      "remaining": 6,
+      "remaining_names": [
+        "Tuberculispora",
+        "Lophotriletes",
+        "Chanovejisporites",
+        "Conperiplecospora",
+        "Corystisporites",
+        "Procoronaspora"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Chanovejisporites",
+      "questions": 22,
+      "unknown": 10,
+      "remaining": 7,
+      "remaining_names": [
+        "Tuberculispora",
+        "Lophotriletes",
+        "Chanovejisporites",
+        "Conperiplecospora",
+        "Foveoretusispora",
+        "Corystisporites",
+        "Procoronaspora"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Tuberculiretusispora",
+      "questions": 14,
+      "unknown": 4,
+      "remaining": 4,
+      "remaining_names": [
+        "Tuberculispora",
+        "Tuberculiretusispora",
+        "Foveoretusispora",
+        "Umbonatisporites"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Verrucosisporites",
+      "questions": 19,
+      "unknown": 3,
+      "remaining": 5,
+      "remaining_names": [
+        "Verrucosisporites",
+        "Converrucosisporites",
+        "Schopfites",
+        "Conperiplecospora",
+        "Corystisporites"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Converrucosisporites",
+      "questions": 20,
+      "unknown": 5,
+      "remaining": 7,
+      "remaining_names": [
+        "Verrucosisporites",
+        "Converrucosisporites",
+        "Conperiplecospora",
+        "Costaspora",
+        "Pustulatisporites",
+        "Corystisporites",
+        "Procoronaspora"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Schopfites",
+      "questions": 14,
+      "unknown": 3,
+      "remaining": 3,
+      "remaining_names": [
+        "Verrucosisporites",
+        "Schopfites",
+        "Corystisporites"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Interradispora",
+      "questions": 24,
+      "unknown": 2,
+      "remaining": 2,
+      "remaining_names": [
+        "Interradispora",
+        "Costaspora"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Verruciretusispora",
+      "questions": 17,
+      "unknown": 2,
+      "remaining": 1,
+      "remaining_names": [
+        "Verruciretusispora"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Cyclobaculisporites",
+      "questions": 21,
+      "unknown": 2,
+      "remaining": 4,
+      "remaining_names": [
+        "Cyclobaculisporites",
+        "Raistrickia",
+        "Neoraistrickia",
+        "Umbonatisporites"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Horriditriletes",
+      "questions": 23,
+      "unknown": 4,
+      "remaining": 2,
+      "remaining_names": [
+        "Horriditriletes",
+        "Procoronaspora"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Microbaculispora",
+      "questions": 17,
+      "unknown": 0,
+      "remaining": 2,
+      "remaining_names": [
+        "Microbaculispora",
+        "Procoronaspora"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Cyclopileatispora",
+      "questions": 16,
+      "unknown": 0,
+      "remaining": 2,
+      "remaining_names": [
+        "Cyclopileatispora",
+        "Umbonatisporites"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Pileatisporites",
+      "questions": 18,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Pileatisporites"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Capillatisporites",
+      "questions": 22,
+      "unknown": 2,
+      "remaining": 1,
+      "remaining_names": [
+        "Capillatisporites"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Pilosisporites",
+      "questions": 19,
+      "unknown": 1,
+      "remaining": 3,
+      "remaining_names": [
+        "Pilosisporites",
+        "Procoronaspora",
+        "Reinschospora"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Spinosisporites",
+      "questions": 23,
+      "unknown": 6,
+      "remaining": 6,
+      "remaining_names": [
+        "Spinosisporites",
+        "Acanthotriletes",
+        "Raistrickia",
+        "Neoraistrickia",
+        "Umbonatisporites",
+        "Brevitriletes"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Acanthotriletes",
+      "questions": 21,
+      "unknown": 4,
+      "remaining": 5,
+      "remaining_names": [
+        "Spinosisporites",
+        "Acanthotriletes",
+        "Lukugasporites",
+        "Costaspora",
+        "Procoronaspora"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Lukugasporites",
+      "questions": 18,
+      "unknown": 3,
+      "remaining": 5,
+      "remaining_names": [
+        "Acanthotriletes",
+        "Lukugasporites",
+        "Costaspora",
+        "Procoronaspora",
+        "Brevitriletes"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Apiculatisporis",
+      "questions": 19,
+      "unknown": 2,
+      "remaining": 2,
+      "remaining_names": [
+        "Apiculatisporis",
+        "Umbonatisporites"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Jugisporis",
+      "questions": 21,
+      "unknown": 3,
+      "remaining": 4,
+      "remaining_names": [
+        "Jugisporis",
+        "Pustulatisporites",
+        "Apiculiretusispora",
+        "Procoronaspora"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Anaplanisporites",
+      "questions": 21,
+      "unknown": 5,
+      "remaining": 2,
+      "remaining_names": [
+        "Anaplanisporites",
+        "Mixtatispora"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Anapiculatisporites",
+      "questions": 19,
+      "unknown": 2,
+      "remaining": 1,
+      "remaining_names": [
+        "Anapiculatisporites"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Phidiaesporites",
+      "questions": 19,
+      "unknown": 3,
+      "remaining": 2,
+      "remaining_names": [
+        "Phidiaesporites",
+        "Foveoretusispora"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Reticulatisporites",
+      "questions": 21,
+      "unknown": 3,
+      "remaining": 1,
+      "remaining_names": [
+        "Reticulatisporites"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Microreticulatisporites",
+      "questions": 25,
+      "unknown": 5,
+      "remaining": 6,
+      "remaining_names": [
+        "Microreticulatisporites",
+        "Dictyotriletes",
+        "Foveoretusispora",
+        "Procoronaspora",
+        "Secarisporites",
+        "Biornatispora"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Anreticulispora",
+      "questions": 20,
+      "unknown": 2,
+      "remaining": 3,
+      "remaining_names": [
+        "Anreticulispora",
+        "Reticuliretusispora",
+        "Biornatispora"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Dictyotriletes",
+      "questions": 25,
+      "unknown": 5,
+      "remaining": 6,
+      "remaining_names": [
+        "Microreticulatisporites",
+        "Dictyotriletes",
+        "Foveoretusispora",
+        "Procoronaspora",
+        "Secarisporites",
+        "Biornatispora"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Reticuliretusispora",
+      "questions": 19,
+      "unknown": 0,
+      "remaining": 3,
+      "remaining_names": [
+        "Anreticulispora",
+        "Reticuliretusispora",
+        "Biornatispora"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Camptotriletes",
+      "questions": 20,
+      "unknown": 0,
+      "remaining": 2,
+      "remaining_names": [
+        "Camptotriletes",
+        "Ancamptotriletes"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Rugulispora",
+      "questions": 24,
+      "unknown": 2,
+      "remaining": 3,
+      "remaining_names": [
+        "Rugulispora",
+        "Emphanisporites",
+        "Acinosporites"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Ancamptotriletes",
+      "questions": 25,
+      "unknown": 4,
+      "remaining": 3,
+      "remaining_names": [
+        "Camptotriletes",
+        "Ancamptotriletes",
+        "Apiculiretusispora"
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Periplecotriletes",
+      "questions": 24,
+      "unknown": 14,
+      "remaining": 1,
+      "remaining_names": [
+        "Periplecotriletes"
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Conperiplecospora",
+      "questions": 29,
+      "unknown": 17,
+      "remaining": 11,
+      "remaining_names": [
+        "Tuberculispora",
+        "Lophotriletes",
+        "Chanovejisporites",
+        "Verrucosisporites",
+        "Converrucosisporites",
+        "Conperiplecospora",
+        "Costaspora",
+        "Microfoveolatispora",
+        "Convolutispora",
+        "Corystisporites",
+        "Procoronaspora"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Emphanisporites",
+      "questions": 32,
+      "unknown": 16,
+      "remaining": 3,
+      "remaining_names": [
+        "Rugulispora",
+        "Emphanisporites",
+        "Acinosporites"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Costaspora",
+      "questions": 28,
+      "unknown": 8,
+      "remaining": 8,
+      "remaining_names": [
+        "Lacinitriletes",
+        "Converrucosisporites",
+        "Interradispora",
+        "Acanthotriletes",
+        "Lukugasporites",
+        "Conperiplecospora",
+        "Costaspora",
+        "Procoronaspora"
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Foveolatisporites",
+      "questions": 22,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Foveolatisporites"
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Brochotriletes",
+      "questions": 23,
+      "unknown": 0,
+      "remaining": 2,
+      "remaining_names": [
+        "Brochotriletes",
+        "Procoronaspora"
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Microfoveolatispora",
+      "questions": 22,
+      "unknown": 0,
+      "remaining": 3,
+      "remaining_names": [
+        "Conperiplecospora",
+        "Microfoveolatispora",
+        "Procoronaspora"
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Foveoretusispora",
+      "questions": 28,
+      "unknown": 16,
+      "remaining": 8,
+      "remaining_names": [
+        "Chanovejisporites",
+        "Tuberculiretusispora",
+        "Phidiaesporites",
+        "Microreticulatisporites",
+        "Dictyotriletes",
+        "Foveoretusispora",
+        "Neoraistrickia",
+        "Secarisporites"
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Convolutispora",
+      "questions": 26,
+      "unknown": 3,
+      "remaining": 4,
+      "remaining_names": [
+        "Conperiplecospora",
+        "Convolutispora",
+        "Vermiculispora",
+        "Corystisporites"
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Vermiculispora",
+      "questions": 26,
+      "unknown": 3,
+      "remaining": 3,
+      "remaining_names": [
+        "Convolutispora",
+        "Vermiculispora",
+        "Procoronaspora"
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Pustulatisporites",
+      "questions": 25,
+      "unknown": 3,
+      "remaining": 5,
+      "remaining_names": [
+        "Granulatisporites",
+        "Converrucosisporites",
+        "Jugisporis",
+        "Pustulatisporites",
+        "Procoronaspora"
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Mixtatispora",
+      "questions": 29,
+      "unknown": 7,
+      "remaining": 4,
+      "remaining_names": [
+        "Anaplanisporites",
+        "Mixtatispora",
+        "Procoronaspora",
+        "Reinschospora"
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Apiculiretusispora",
+      "questions": 29,
+      "unknown": 6,
+      "remaining": 4,
+      "remaining_names": [
+        "Pulvinispora",
+        "Jugisporis",
+        "Ancamptotriletes",
+        "Apiculiretusispora"
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Raistrickia",
+      "questions": 22,
+      "unknown": 2,
+      "remaining": 5,
+      "remaining_names": [
+        "Cyclobaculisporites",
+        "Spinosisporites",
+        "Raistrickia",
+        "Secarisporites",
+        "Umbonatisporites"
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Neoraistrickia",
+      "questions": 28,
+      "unknown": 6,
+      "remaining": 5,
+      "remaining_names": [
+        "Cyclobaculisporites",
+        "Spinosisporites",
+        "Foveoretusispora",
+        "Neoraistrickia",
+        "Secarisporites"
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Cadiospora",
+      "questions": 29,
+      "unknown": 16,
+      "remaining": 2,
+      "remaining_names": [
+        "Cadiospora",
+        "Hystricosporites"
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Corystisporites",
+      "questions": 30,
+      "unknown": 18,
+      "remaining": 10,
+      "remaining_names": [
+        "Tuberculispora",
+        "Lophotriletes",
+        "Chanovejisporites",
+        "Verrucosisporites",
+        "Converrucosisporites",
+        "Schopfites",
+        "Conperiplecospora",
+        "Convolutispora",
+        "Corystisporites",
+        "Bullatisporites"
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Procoronaspora",
+      "questions": 28,
+      "unknown": 19,
+      "remaining": 23,
+      "remaining_names": [
+        "Leiotriletes",
+        "Granulatisporites",
+        "Lacinitriletes",
+        "Lophotriletes",
+        "Chanovejisporites",
+        "Converrucosisporites",
+        "Horriditriletes",
+        "Microbaculispora",
+        "Pilosisporites",
+        "Acanthotriletes",
+        "Lukugasporites",
+        "Jugisporis",
+        "Microreticulatisporites",
+        "Dictyotriletes",
+        "Conperiplecospora",
+        "Costaspora",
+        "Brochotriletes",
+        "Microfoveolatispora",
+        "Vermiculispora",
+        "Pustulatisporites",
+        "Mixtatispora",
+        "Procoronaspora",
+        "Reinschospora"
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Dibolisporites",
+      "questions": 29,
+      "unknown": 6,
+      "remaining": 1,
+      "remaining_names": [
+        "Dibolisporites"
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Reinschospora",
+      "questions": 23,
+      "unknown": 2,
+      "remaining": 4,
+      "remaining_names": [
+        "Pilosisporites",
+        "Mixtatispora",
+        "Procoronaspora",
+        "Reinschospora"
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Secarisporites",
+      "questions": 29,
+      "unknown": 6,
+      "remaining": 7,
+      "remaining_names": [
+        "Microreticulatisporites",
+        "Dictyotriletes",
+        "Foveoretusispora",
+        "Raistrickia",
+        "Neoraistrickia",
+        "Secarisporites",
+        "Umbonatisporites"
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Biornatispora",
+      "questions": 25,
+      "unknown": 4,
+      "remaining": 5,
+      "remaining_names": [
+        "Microreticulatisporites",
+        "Anreticulispora",
+        "Dictyotriletes",
+        "Reticuliretusispora",
+        "Biornatispora"
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Acinosporites",
+      "questions": 34,
+      "unknown": 19,
+      "remaining": 4,
+      "remaining_names": [
+        "Rugulispora",
+        "Emphanisporites",
+        "Acinosporites",
+        "Hystricosporites"
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Hystricosporites",
+      "questions": 29,
+      "unknown": 17,
+      "remaining": 3,
+      "remaining_names": [
+        "Cadiospora",
+        "Acinosporites",
+        "Hystricosporites"
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Umbonatisporites",
+      "questions": 25,
+      "unknown": 16,
+      "remaining": 9,
+      "remaining_names": [
+        "Cyclogranisporites",
+        "Tuberculiretusispora",
+        "Cyclobaculisporites",
+        "Cyclopileatispora",
+        "Spinosisporites",
+        "Apiculatisporis",
+        "Raistrickia",
+        "Secarisporites",
+        "Umbonatisporites"
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Bullatisporites",
+      "questions": 16,
+      "unknown": 0,
+      "remaining": 2,
+      "remaining_names": [
+        "Corystisporites",
+        "Bullatisporites"
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Brevitriletes",
+      "questions": 23,
+      "unknown": 5,
+      "remaining": 3,
+      "remaining_names": [
+        "Spinosisporites",
+        "Lukugasporites",
+        "Brevitriletes"
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Stenozonotriletes",
+      "questions": 15,
+      "unknown": 2,
+      "remaining": 3,
+      "remaining_names": [
+        "Stenozonotriletes",
+        "Euryzonotriletes",
+        "Leiozonotriletes"
+      ]
+    },
+    {
+      "id": 71,
+      "name": "Lophozonotriletes",
+      "questions": 22,
+      "unknown": 3,
+      "remaining": 8,
+      "remaining_names": [
+        "Lophozonotriletes",
+        "Bascaudaspora",
+        "Archaeotriletes",
+        "Hymenozonotriletes",
+        "Tripartites",
+        "Chelinospora",
+        "Cyrtospora",
+        "Chomotriletes"
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Crassispora",
+      "questions": 16,
+      "unknown": 3,
+      "remaining": 5,
+      "remaining_names": [
+        "Crassispora",
+        "Aneurospora",
+        "Hymenozonotriletes",
+        "Tripartites",
+        "Chomotriletes"
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Nevesisporites",
+      "questions": 14,
+      "unknown": 2,
+      "remaining": 2,
+      "remaining_names": [
+        "Nevesisporites",
+        "Simozonotriletes"
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Ambitisporites",
+      "questions": 20,
+      "unknown": 7,
+      "remaining": 5,
+      "remaining_names": [
+        "Ambitisporites",
+        "Simozonotriletes",
+        "Potoniespores",
+        "Pygmaeisporites",
+        "Psilohymena"
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Gravisporites",
+      "questions": 12,
+      "unknown": 1,
+      "remaining": 5,
+      "remaining_names": [
+        "Gravisporites",
+        "Gibberulaspora",
+        "Callisporites",
+        "Camptozonotriletes",
+        "Tripartites"
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Acanthozonotriletes",
+      "questions": 18,
+      "unknown": 2,
+      "remaining": 4,
+      "remaining_names": [
+        "Acanthozonotriletes",
+        "Krauselisporites",
+        "Tripartites",
+        "Chomotriletes"
+      ]
+    },
+    {
+      "id": 77,
+      "name": "Aneurospora",
+      "questions": 26,
+      "unknown": 16,
+      "remaining": 10,
+      "remaining_names": [
+        "Crassispora",
+        "Aneurospora",
+        "Simozonotriletes",
+        "Knoxisporites",
+        "Hymenozonotriletes",
+        "Diatomozonotriletes",
+        "Tripartites",
+        "Chelinospora",
+        "Chomotriletes",
+        "Cornispora"
+      ]
+    },
+    {
+      "id": 78,
+      "name": "Streelispora",
+      "questions": 19,
+      "unknown": 8,
+      "remaining": 10,
+      "remaining_names": [
+        "Streelispora",
+        "Simozonotriletes",
+        "Bellispores",
+        "Zonocoronaspora",
+        "Hymenozonotriletes",
+        "Krauselisporites",
+        "Tripartites",
+        "Triquitrites",
+        "Mooreisporites",
+        "Cyrtospora"
+      ]
+    },
+    {
+      "id": 79,
+      "name": "Synorisporites",
+      "questions": 13,
+      "unknown": 4,
+      "remaining": 3,
+      "remaining_names": [
+        "Synorisporites",
+        "Emphanizonosporites",
+        "Ancyrospora"
+      ]
+    },
+    {
+      "id": 80,
+      "name": "Labiadensites",
+      "questions": 15,
+      "unknown": 2,
+      "remaining": 2,
+      "remaining_names": [
+        "Labiadensites",
+        "Euryzonotriletes"
+      ]
+    },
+    {
+      "id": 81,
+      "name": "Euryzonotriletes",
+      "questions": 18,
+      "unknown": 6,
+      "remaining": 6,
+      "remaining_names": [
+        "Stenozonotriletes",
+        "Labiadensites",
+        "Euryzonotriletes",
+        "Clavisporis",
+        "Leiozonotriletes",
+        "Chomotriletes"
+      ]
+    },
+    {
+      "id": 82,
+      "name": "Cincturasporites",
+      "questions": 18,
+      "unknown": 6,
+      "remaining": 4,
+      "remaining_names": [
+        "Cincturasporites",
+        "Simozonotriletes",
+        "Leiozonotriletes",
+        "Perotriletes"
+      ]
+    },
+    {
+      "id": 83,
+      "name": "Simozonotriletes",
+      "questions": 26,
+      "unknown": 17,
+      "remaining": 22,
+      "remaining_names": [
+        "Nevesisporites",
+        "Ambitisporites",
+        "Aneurospora",
+        "Streelispora",
+        "Cincturasporites",
+        "Simozonotriletes",
+        "Bascaudaspora",
+        "Potoniespores",
+        "Murospora",
+        "Leiozonotriletes",
+        "Archaeotriletes",
+        "Zonocoronaspora",
+        "Krauselisporites",
+        "Rotaspora",
+        "Tripartites",
+        "Pygmaeisporites",
+        "Triquitrites",
+        "Chelinospora",
+        "Cyrtospora",
+        "Chomotriletes",
+        "Cornispora",
+        "Psilohymena"
+      ]
+    },
+    {
+      "id": 84,
+      "name": "Gibberulaspora",
+      "questions": 14,
+      "unknown": 5,
+      "remaining": 6,
+      "remaining_names": [
+        "Gravisporites",
+        "Gibberulaspora",
+        "Gorgonispora",
+        "Callisporites",
+        "Hymenozonotriletes",
+        "Camptozonotriletes"
+      ]
+    },
+    {
+      "id": 85,
+      "name": "Gorgonispora",
+      "questions": 19,
+      "unknown": 2,
+      "remaining": 6,
+      "remaining_names": [
+        "Gibberulaspora",
+        "Gorgonispora",
+        "Callisporites",
+        "Archaeotriletes",
+        "Camptozonotriletes",
+        "Samarisporites"
+      ]
+    },
+    {
+      "id": 86,
+      "name": "Clavisporis",
+      "questions": 12,
+      "unknown": 2,
+      "remaining": 4,
+      "remaining_names": [
+        "Euryzonotriletes",
+        "Clavisporis",
+        "Chelinospora",
+        "Chomotriletes"
+      ]
+    },
+    {
+      "id": 87,
+      "name": "Bascaudaspora",
+      "questions": 13,
+      "unknown": 3,
+      "remaining": 7,
+      "remaining_names": [
+        "Lophozonotriletes",
+        "Simozonotriletes",
+        "Bascaudaspora",
+        "Archaeotriletes",
+        "Tripartites",
+        "Chelinospora",
+        "Chomotriletes"
+      ]
+    },
+    {
+      "id": 88,
+      "name": "Knoxisporites",
+      "questions": 17,
+      "unknown": 2,
+      "remaining": 5,
+      "remaining_names": [
+        "Aneurospora",
+        "Knoxisporites",
+        "Tripartites",
+        "Chelinospora",
+        "Chomotriletes"
+      ]
+    },
+    {
+      "id": 89,
+      "name": "Emphanizonosporites",
+      "questions": 22,
+      "unknown": 4,
+      "remaining": 4,
+      "remaining_names": [
+        "Synorisporites",
+        "Emphanizonosporites",
+        "Ancyrospora",
+        "Hymenozonotriletes"
+      ]
+    },
+    {
+      "id": 90,
+      "name": "Orbisporis",
+      "questions": 13,
+      "unknown": 2,
+      "remaining": 2,
+      "remaining_names": [
+        "Orbisporis",
+        "Archaeotriletes"
+      ]
+    },
+    {
+      "id": 91,
+      "name": "Angulisporites",
+      "questions": 11,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Angulisporites"
+      ]
+    },
+    {
+      "id": 92,
+      "name": "Potoniespores",
+      "questions": 12,
+      "unknown": 0,
+      "remaining": 4,
+      "remaining_names": [
+        "Ambitisporites",
+        "Simozonotriletes",
+        "Potoniespores",
+        "Pygmaeisporites"
+      ]
+    },
+    {
+      "id": 93,
+      "name": "Murospora",
+      "questions": 13,
+      "unknown": 0,
+      "remaining": 3,
+      "remaining_names": [
+        "Simozonotriletes",
+        "Murospora",
+        "Zonocoronaspora"
+      ]
+    },
+    {
+      "id": 94,
+      "name": "Callisporites",
+      "questions": 24,
+      "unknown": 13,
+      "remaining": 10,
+      "remaining_names": [
+        "Gravisporites",
+        "Gibberulaspora",
+        "Gorgonispora",
+        "Callisporites",
+        "Archaeotriletes",
+        "Perotriletes",
+        "Hymenozonotriletes",
+        "Camptozonotriletes",
+        "Samarisporites",
+        "Mooreisporites"
+      ]
+    },
+    {
+      "id": 95,
+      "name": "Bellispores",
+      "questions": 16,
+      "unknown": 0,
+      "remaining": 4,
+      "remaining_names": [
+        "Streelispora",
+        "Bellispores",
+        "Krauselisporites",
+        "Tripartites"
+      ]
+    },
+    {
+      "id": 96,
+      "name": "Leiozonotriletes",
+      "questions": 23,
+      "unknown": 7,
+      "remaining": 5,
+      "remaining_names": [
+        "Stenozonotriletes",
+        "Euryzonotriletes",
+        "Cincturasporites",
+        "Simozonotriletes",
+        "Leiozonotriletes"
+      ]
+    },
+    {
+      "id": 97,
+      "name": "Antissporites",
+      "questions": 26,
+      "unknown": 6,
+      "remaining": 2,
+      "remaining_names": [
+        "Antissporites",
+        "Psilohymena"
+      ]
+    },
+    {
+      "id": 98,
+      "name": "Archaeotriletes",
+      "questions": 23,
+      "unknown": 12,
+      "remaining": 12,
+      "remaining_names": [
+        "Lophozonotriletes",
+        "Simozonotriletes",
+        "Gorgonispora",
+        "Bascaudaspora",
+        "Orbisporis",
+        "Callisporites",
+        "Archaeotriletes",
+        "Hymenozonotriletes",
+        "Camptozonotriletes",
+        "Tripartites",
+        "Chelinospora",
+        "Chomotriletes"
+      ]
+    },
+    {
+      "id": 99,
+      "name": "Ancyrospora",
+      "questions": 22,
+      "unknown": 10,
+      "remaining": 4,
+      "remaining_names": [
+        "Synorisporites",
+        "Emphanizonosporites",
+        "Ancyrospora",
+        "Hymenozonotriletes"
+      ]
+    },
+    {
+      "id": 100,
+      "name": "Zonocoronaspora",
+      "questions": 16,
+      "unknown": 5,
+      "remaining": 6,
+      "remaining_names": [
+        "Streelispora",
+        "Simozonotriletes",
+        "Murospora",
+        "Zonocoronaspora",
+        "Ahrensisporites",
+        "Chomotriletes"
+      ]
+    },
+    {
+      "id": 101,
+      "name": "Veliferaspora",
+      "questions": 17,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Veliferaspora"
+      ]
+    },
+    {
+      "id": 102,
+      "name": "Perotriletes",
+      "questions": 12,
+      "unknown": 2,
+      "remaining": 5,
+      "remaining_names": [
+        "Cincturasporites",
+        "Callisporites",
+        "Perotriletes",
+        "Camptozonotriletes",
+        "Samarisporites"
+      ]
+    },
+    {
+      "id": 103,
+      "name": "Hymenozonotriletes",
+      "questions": 28,
+      "unknown": 11,
+      "remaining": 20,
+      "remaining_names": [
+        "Lophozonotriletes",
+        "Crassispora",
+        "Aneurospora",
+        "Streelispora",
+        "Gibberulaspora",
+        "Emphanizonosporites",
+        "Callisporites",
+        "Archaeotriletes",
+        "Ancyrospora",
+        "Hymenozonotriletes",
+        "Camptozonotriletes",
+        "Krauselisporites",
+        "Samarisporites",
+        "Camarozonotriletes",
+        "Tripartites",
+        "Ahrensisporites",
+        "Triquitrites",
+        "Mooreisporites",
+        "Cyrtospora",
+        "Chomotriletes"
+      ]
+    },
+    {
+      "id": 104,
+      "name": "Camptozonotriletes",
+      "questions": 24,
+      "unknown": 13,
+      "remaining": 11,
+      "remaining_names": [
+        "Gravisporites",
+        "Gibberulaspora",
+        "Gorgonispora",
+        "Callisporites",
+        "Archaeotriletes",
+        "Perotriletes",
+        "Hymenozonotriletes",
+        "Camptozonotriletes",
+        "Stellispora",
+        "Samarisporites",
+        "Mooreisporites"
+      ]
+    },
+    {
+      "id": 105,
+      "name": "Stellispora",
+      "questions": 15,
+      "unknown": 0,
+      "remaining": 3,
+      "remaining_names": [
+        "Camptozonotriletes",
+        "Stellispora",
+        "Samarisporites"
+      ]
+    },
+    {
+      "id": 106,
+      "name": "Krauselisporites",
+      "questions": 18,
+      "unknown": 8,
+      "remaining": 10,
+      "remaining_names": [
+        "Acanthozonotriletes",
+        "Streelispora",
+        "Simozonotriletes",
+        "Bellispores",
+        "Hymenozonotriletes",
+        "Krauselisporites",
+        "Tripartites",
+        "Triquitrites",
+        "Mooreisporites",
+        "Cyrtospora"
+      ]
+    },
+    {
+      "id": 107,
+      "name": "Samarisporites",
+      "questions": 19,
+      "unknown": 9,
+      "remaining": 8,
+      "remaining_names": [
+        "Gorgonispora",
+        "Callisporites",
+        "Perotriletes",
+        "Hymenozonotriletes",
+        "Camptozonotriletes",
+        "Stellispora",
+        "Samarisporites",
+        "Mooreisporites"
+      ]
+    },
+    {
+      "id": 108,
+      "name": "Pulvinizonotriletes",
+      "questions": 11,
+      "unknown": 1,
+      "remaining": 1,
+      "remaining_names": [
+        "Pulvinizonotriletes"
+      ]
+    },
+    {
+      "id": 109,
+      "name": "Breconisporites",
+      "questions": 10,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Breconisporites"
+      ]
+    },
+    {
+      "id": 110,
+      "name": "Camarozonotriletes",
+      "questions": 26,
+      "unknown": 6,
+      "remaining": 5,
+      "remaining_names": [
+        "Hymenozonotriletes",
+        "Camarozonotriletes",
+        "Tripartites",
+        "Ahrensisporites",
+        "Chomotriletes"
+      ]
+    },
+    {
+      "id": 111,
+      "name": "Rotaspora",
+      "questions": 10,
+      "unknown": 0,
+      "remaining": 2,
+      "remaining_names": [
+        "Simozonotriletes",
+        "Rotaspora"
+      ]
+    },
+    {
+      "id": 112,
+      "name": "Diatomozonotriletes",
+      "questions": 16,
+      "unknown": 3,
+      "remaining": 4,
+      "remaining_names": [
+        "Aneurospora",
+        "Diatomozonotriletes",
+        "Tripartites",
+        "Chomotriletes"
+      ]
+    },
+    {
+      "id": 113,
+      "name": "Tripartites",
+      "questions": 29,
+      "unknown": 22,
+      "remaining": 23,
+      "remaining_names": [
+        "Lophozonotriletes",
+        "Crassispora",
+        "Gravisporites",
+        "Acanthozonotriletes",
+        "Aneurospora",
+        "Streelispora",
+        "Simozonotriletes",
+        "Bascaudaspora",
+        "Knoxisporites",
+        "Bellispores",
+        "Archaeotriletes",
+        "Hymenozonotriletes",
+        "Krauselisporites",
+        "Camarozonotriletes",
+        "Diatomozonotriletes",
+        "Tripartites",
+        "Ahrensisporites",
+        "Triquitrites",
+        "Mooreisporites",
+        "Chelinospora",
+        "Cyrtospora",
+        "Chomotriletes",
+        "Cornispora"
+      ]
+    },
+    {
+      "id": 114,
+      "name": "Pygmaeisporites",
+      "questions": 12,
+      "unknown": 0,
+      "remaining": 4,
+      "remaining_names": [
+        "Ambitisporites",
+        "Simozonotriletes",
+        "Potoniespores",
+        "Pygmaeisporites"
+      ]
+    },
+    {
+      "id": 115,
+      "name": "Ahrensisporites",
+      "questions": 21,
+      "unknown": 4,
+      "remaining": 5,
+      "remaining_names": [
+        "Zonocoronaspora",
+        "Hymenozonotriletes",
+        "Camarozonotriletes",
+        "Tripartites",
+        "Ahrensisporites"
+      ]
+    },
+    {
+      "id": 116,
+      "name": "Triquitrites",
+      "questions": 17,
+      "unknown": 2,
+      "remaining": 8,
+      "remaining_names": [
+        "Streelispora",
+        "Simozonotriletes",
+        "Hymenozonotriletes",
+        "Krauselisporites",
+        "Tripartites",
+        "Triquitrites",
+        "Mooreisporites",
+        "Cyrtospora"
+      ]
+    },
+    {
+      "id": 117,
+      "name": "Mooreisporites",
+      "questions": 17,
+      "unknown": 2,
+      "remaining": 10,
+      "remaining_names": [
+        "Streelispora",
+        "Callisporites",
+        "Hymenozonotriletes",
+        "Camptozonotriletes",
+        "Krauselisporites",
+        "Samarisporites",
+        "Tripartites",
+        "Triquitrites",
+        "Mooreisporites",
+        "Cyrtospora"
+      ]
+    },
+    {
+      "id": 118,
+      "name": "Chelinospora",
+      "questions": 15,
+      "unknown": 7,
+      "remaining": 10,
+      "remaining_names": [
+        "Lophozonotriletes",
+        "Aneurospora",
+        "Simozonotriletes",
+        "Clavisporis",
+        "Bascaudaspora",
+        "Knoxisporites",
+        "Archaeotriletes",
+        "Tripartites",
+        "Chelinospora",
+        "Chomotriletes"
+      ]
+    },
+    {
+      "id": 119,
+      "name": "Cyrtospora",
+      "questions": 26,
+      "unknown": 6,
+      "remaining": 10,
+      "remaining_names": [
+        "Lophozonotriletes",
+        "Streelispora",
+        "Simozonotriletes",
+        "Hymenozonotriletes",
+        "Krauselisporites",
+        "Tripartites",
+        "Triquitrites",
+        "Mooreisporites",
+        "Cyrtospora",
+        "Chomotriletes"
+      ]
+    },
+    {
+      "id": 120,
+      "name": "Chomotriletes",
+      "questions": 27,
+      "unknown": 17,
+      "remaining": 19,
+      "remaining_names": [
+        "Lophozonotriletes",
+        "Crassispora",
+        "Acanthozonotriletes",
+        "Aneurospora",
+        "Euryzonotriletes",
+        "Simozonotriletes",
+        "Clavisporis",
+        "Bascaudaspora",
+        "Knoxisporites",
+        "Archaeotriletes",
+        "Zonocoronaspora",
+        "Hymenozonotriletes",
+        "Camarozonotriletes",
+        "Diatomozonotriletes",
+        "Tripartites",
+        "Chelinospora",
+        "Cyrtospora",
+        "Chomotriletes",
+        "Cornispora"
+      ]
+    },
+    {
+      "id": 121,
+      "name": "Cornispora",
+      "questions": 12,
+      "unknown": 0,
+      "remaining": 5,
+      "remaining_names": [
+        "Aneurospora",
+        "Simozonotriletes",
+        "Tripartites",
+        "Chomotriletes",
+        "Cornispora"
+      ]
+    },
+    {
+      "id": 122,
+      "name": "Grumosisporites",
+      "questions": 4,
+      "unknown": 0,
+      "remaining": 2,
+      "remaining_names": [
+        "Grumosisporites",
+        "Vestispora"
+      ]
+    },
+    {
+      "id": 123,
+      "name": "Asperispora",
+      "questions": 20,
+      "unknown": 4,
+      "remaining": 9,
+      "remaining_names": [
+        "Asperispora",
+        "Vallatisporites",
+        "Elenisporis",
+        "Spinozonotriletes",
+        "Calyptosporites",
+        "Potonieitriradites",
+        "Cymbosporites",
+        "Lundbladispora",
+        "Geminospora"
+      ]
+    },
+    {
+      "id": 124,
+      "name": "Clivosispora",
+      "questions": 15,
+      "unknown": 2,
+      "remaining": 8,
+      "remaining_names": [
+        "Clivosispora",
+        "Savitrisporites",
+        "Densosporites",
+        "Vallatisporites",
+        "Radiizonates",
+        "Cymbosporites",
+        "Rimosisporis",
+        "Geminospora"
+      ]
+    },
+    {
+      "id": 125,
+      "name": "Savitrisporites",
+      "questions": 12,
+      "unknown": 4,
+      "remaining": 9,
+      "remaining_names": [
+        "Clivosispora",
+        "Savitrisporites",
+        "Densosporites",
+        "Vallatisporites",
+        "Spinozonotriletes",
+        "Cingulizonates",
+        "Radiizonates",
+        "Lycospora",
+        "Cirratriradites"
+      ]
+    },
+    {
+      "id": 126,
+      "name": "Anulatisporites",
+      "questions": 13,
+      "unknown": 4,
+      "remaining": 4,
+      "remaining_names": [
+        "Anulatisporites",
+        "Psilohymena",
+        "Cingulizonates",
+        "Colatisporites"
+      ]
+    },
+    {
+      "id": 127,
+      "name": "Cristatisporites",
+      "questions": 14,
+      "unknown": 2,
+      "remaining": 4,
+      "remaining_names": [
+        "Cristatisporites",
+        "Vallatisporites",
+        "Cymbosporites",
+        "Geminospora"
+      ]
+    },
+    {
+      "id": 128,
+      "name": "Tumulispora",
+      "questions": 21,
+      "unknown": 7,
+      "remaining": 13,
+      "remaining_names": [
+        "Tumulispora",
+        "Psilohymena",
+        "Lycospora",
+        "Cirratriradites",
+        "Cymbosporites",
+        "Rimosisporis",
+        "Endoculeospora",
+        "Lundbladispora",
+        "Retispora",
+        "Geminospora",
+        "Colatisporites",
+        "Lanatisporis",
+        "Alatisporites"
+      ]
+    },
+    {
+      "id": 129,
+      "name": "Densosporites",
+      "questions": 19,
+      "unknown": 6,
+      "remaining": 15,
+      "remaining_names": [
+        "Clivosispora",
+        "Savitrisporites",
+        "Densosporites",
+        "Vallatisporites",
+        "Elenisporis",
+        "Scabrosisporites",
+        "Spinozonotriletes",
+        "Grandispora",
+        "Cingulizonates",
+        "Radiizonates",
+        "Cymbosporites",
+        "Rimosisporis",
+        "Geminospora",
+        "Lanatisporis",
+        "Alatisporites"
+      ]
+    },
+    {
+      "id": 130,
+      "name": "Vallatisporites",
+      "questions": 20,
+      "unknown": 11,
+      "remaining": 20,
+      "remaining_names": [
+        "Asperispora",
+        "Clivosispora",
+        "Savitrisporites",
+        "Cristatisporites",
+        "Densosporites",
+        "Vallatisporites",
+        "Elenisporis",
+        "Scabrosisporites",
+        "Spinozonotriletes",
+        "Grandispora",
+        "Calyptosporites",
+        "Membrabaculisporis",
+        "Cingulizonates",
+        "Radiizonates",
+        "Potonieitriradites",
+        "Cymbosporites",
+        "Rimosisporis",
+        "Contagisporites",
+        "Geminospora",
+        "Lanatisporis"
+      ]
+    },
+    {
+      "id": 131,
+      "name": "Elenisporis",
+      "questions": 19,
+      "unknown": 5,
+      "remaining": 13,
+      "remaining_names": [
+        "Asperispora",
+        "Densosporites",
+        "Vallatisporites",
+        "Elenisporis",
+        "Spinozonotriletes",
+        "Grandispora",
+        "Cingulizonates",
+        "Cymbosporites",
+        "Contagisporites",
+        "Retispora",
+        "Geminospora",
+        "Lanatisporis",
+        "Vestispora"
+      ]
+    },
+    {
+      "id": 132,
+      "name": "Scabrosisporites",
+      "questions": 14,
+      "unknown": 2,
+      "remaining": 10,
+      "remaining_names": [
+        "Densosporites",
+        "Vallatisporites",
+        "Scabrosisporites",
+        "Grandispora",
+        "Cingulizonates",
+        "Cymbosporites",
+        "Rimosisporis",
+        "Geminospora",
+        "Lanatisporis",
+        "Vestispora"
+      ]
+    },
+    {
+      "id": 133,
+      "name": "Diaphanospora",
+      "questions": 17,
+      "unknown": 2,
+      "remaining": 4,
+      "remaining_names": [
+        "Diaphanospora",
+        "Cymbosporites",
+        "Geminospora",
+        "Vestispora"
+      ]
+    },
+    {
+      "id": 134,
+      "name": "Spinozonotriletes",
+      "questions": 20,
+      "unknown": 5,
+      "remaining": 16,
+      "remaining_names": [
+        "Asperispora",
+        "Savitrisporites",
+        "Densosporites",
+        "Vallatisporites",
+        "Elenisporis",
+        "Spinozonotriletes",
+        "Grandispora",
+        "Calyptosporites",
+        "Cingulizonates",
+        "Radiizonates",
+        "Potonieitriradites",
+        "Cymbosporites",
+        "Rimosisporis",
+        "Contagisporites",
+        "Geminospora",
+        "Lanatisporis"
+      ]
+    },
+    {
+      "id": 135,
+      "name": "Sinuosisporis",
+      "questions": 11,
+      "unknown": 1,
+      "remaining": 4,
+      "remaining_names": [
+        "Sinuosisporis",
+        "Cymbosporites",
+        "Geminospora",
+        "Vestispora"
+      ]
+    },
+    {
+      "id": 136,
+      "name": "Grandispora",
+      "questions": 19,
+      "unknown": 5,
+      "remaining": 13,
+      "remaining_names": [
+        "Densosporites",
+        "Vallatisporites",
+        "Elenisporis",
+        "Scabrosisporites",
+        "Spinozonotriletes",
+        "Grandispora",
+        "Cingulizonates",
+        "Cymbosporites",
+        "Rimosisporis",
+        "Retispora",
+        "Geminospora",
+        "Lanatisporis",
+        "Vestispora"
+      ]
+    },
+    {
+      "id": 137,
+      "name": "Auroraspora",
+      "questions": 8,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Auroraspora"
+      ]
+    },
+    {
+      "id": 138,
+      "name": "Psilohymena",
+      "questions": 30,
+      "unknown": 9,
+      "remaining": 9,
+      "remaining_names": [
+        "Ambitisporites",
+        "Simozonotriletes",
+        "Antissporites",
+        "Anulatisporites",
+        "Tumulispora",
+        "Psilohymena",
+        "Tholisporites",
+        "Colatisporites",
+        "Vestispora"
+      ]
+    },
+    {
+      "id": 139,
+      "name": "Discernisporites",
+      "questions": 12,
+      "unknown": 1,
+      "remaining": 1,
+      "remaining_names": [
+        "Discernisporites"
+      ]
+    },
+    {
+      "id": 140,
+      "name": "Calyptosporites",
+      "questions": 9,
+      "unknown": 0,
+      "remaining": 4,
+      "remaining_names": [
+        "Asperispora",
+        "Vallatisporites",
+        "Spinozonotriletes",
+        "Calyptosporites"
+      ]
+    },
+    {
+      "id": 141,
+      "name": "Monilospora",
+      "questions": 9,
+      "unknown": 0,
+      "remaining": 3,
+      "remaining_names": [
+        "Monilospora",
+        "Cirratriradites",
+        "Alatisporites"
+      ]
+    },
+    {
+      "id": 142,
+      "name": "Membrabaculisporis",
+      "questions": 16,
+      "unknown": 2,
+      "remaining": 3,
+      "remaining_names": [
+        "Vallatisporites",
+        "Membrabaculisporis",
+        "Cymbosporites"
+      ]
+    },
+    {
+      "id": 143,
+      "name": "Cingulizonates",
+      "questions": 23,
+      "unknown": 13,
+      "remaining": 18,
+      "remaining_names": [
+        "Savitrisporites",
+        "Anulatisporites",
+        "Densosporites",
+        "Vallatisporites",
+        "Elenisporis",
+        "Scabrosisporites",
+        "Spinozonotriletes",
+        "Grandispora",
+        "Cingulizonates",
+        "Radiizonates",
+        "Tholisporites",
+        "Cymbosporites",
+        "Rimosisporis",
+        "Retispora",
+        "Geminospora",
+        "Lanatisporis",
+        "Alatisporites",
+        "Vestispora"
+      ]
+    },
+    {
+      "id": 144,
+      "name": "Radiizonates",
+      "questions": 11,
+      "unknown": 3,
+      "remaining": 9,
+      "remaining_names": [
+        "Clivosispora",
+        "Savitrisporites",
+        "Densosporites",
+        "Vallatisporites",
+        "Spinozonotriletes",
+        "Cingulizonates",
+        "Radiizonates",
+        "Lycospora",
+        "Cirratriradites"
+      ]
+    },
+    {
+      "id": 145,
+      "name": "Lycospora",
+      "questions": 19,
+      "unknown": 7,
+      "remaining": 13,
+      "remaining_names": [
+        "Savitrisporites",
+        "Tumulispora",
+        "Radiizonates",
+        "Lycospora",
+        "Cirratriradites",
+        "Cymbosporites",
+        "Rimosisporis",
+        "Endoculeospora",
+        "Densoisporites",
+        "Lundbladispora",
+        "Geminospora",
+        "Lanatisporis",
+        "Alatisporites"
+      ]
+    },
+    {
+      "id": 146,
+      "name": "Cirratriradites",
+      "questions": 20,
+      "unknown": 6,
+      "remaining": 14,
+      "remaining_names": [
+        "Savitrisporites",
+        "Tumulispora",
+        "Monilospora",
+        "Radiizonates",
+        "Lycospora",
+        "Cirratriradites",
+        "Cymbosporites",
+        "Rimosisporis",
+        "Endoculeospora",
+        "Densoisporites",
+        "Lundbladispora",
+        "Geminospora",
+        "Lanatisporis",
+        "Alatisporites"
+      ]
+    },
+    {
+      "id": 147,
+      "name": "Potonieitriradites",
+      "questions": 12,
+      "unknown": 0,
+      "remaining": 4,
+      "remaining_names": [
+        "Asperispora",
+        "Vallatisporites",
+        "Spinozonotriletes",
+        "Potonieitriradites"
+      ]
+    },
+    {
+      "id": 148,
+      "name": "Tholisporites",
+      "questions": 9,
+      "unknown": 2,
+      "remaining": 5,
+      "remaining_names": [
+        "Psilohymena",
+        "Cingulizonates",
+        "Tholisporites",
+        "Colatisporites",
+        "Vestispora"
+      ]
+    },
+    {
+      "id": 149,
+      "name": "Cymbosporites",
+      "questions": 21,
+      "unknown": 13,
+      "remaining": 24,
+      "remaining_names": [
+        "Asperispora",
+        "Clivosispora",
+        "Cristatisporites",
+        "Tumulispora",
+        "Densosporites",
+        "Vallatisporites",
+        "Elenisporis",
+        "Scabrosisporites",
+        "Diaphanospora",
+        "Spinozonotriletes",
+        "Sinuosisporis",
+        "Grandispora",
+        "Membrabaculisporis",
+        "Cingulizonates",
+        "Lycospora",
+        "Cirratriradites",
+        "Cymbosporites",
+        "Rimosisporis",
+        "Contagisporites",
+        "Endoculeospora",
+        "Retispora",
+        "Geminospora",
+        "Lanatisporis",
+        "Vestispora"
+      ]
+    },
+    {
+      "id": 150,
+      "name": "Rimosisporis",
+      "questions": 20,
+      "unknown": 10,
+      "remaining": 17,
+      "remaining_names": [
+        "Clivosispora",
+        "Tumulispora",
+        "Densosporites",
+        "Vallatisporites",
+        "Scabrosisporites",
+        "Spinozonotriletes",
+        "Grandispora",
+        "Cingulizonates",
+        "Lycospora",
+        "Cirratriradites",
+        "Cymbosporites",
+        "Rimosisporis",
+        "Endoculeospora",
+        "Retispora",
+        "Geminospora",
+        "Lanatisporis",
+        "Vestispora"
+      ]
+    },
+    {
+      "id": 151,
+      "name": "Contagisporites",
+      "questions": 17,
+      "unknown": 3,
+      "remaining": 6,
+      "remaining_names": [
+        "Vallatisporites",
+        "Elenisporis",
+        "Spinozonotriletes",
+        "Cymbosporites",
+        "Contagisporites",
+        "Geminospora"
+      ]
+    },
+    {
+      "id": 152,
+      "name": "Endoculeospora",
+      "questions": 18,
+      "unknown": 7,
+      "remaining": 10,
+      "remaining_names": [
+        "Tumulispora",
+        "Lycospora",
+        "Cirratriradites",
+        "Cymbosporites",
+        "Rimosisporis",
+        "Endoculeospora",
+        "Retispora",
+        "Geminospora",
+        "Lanatisporis",
+        "Vestispora"
+      ]
+    },
+    {
+      "id": 153,
+      "name": "Densoisporites",
+      "questions": 9,
+      "unknown": 0,
+      "remaining": 4,
+      "remaining_names": [
+        "Lycospora",
+        "Cirratriradites",
+        "Densoisporites",
+        "Alatisporites"
+      ]
+    },
+    {
+      "id": 154,
+      "name": "Lundbladispora",
+      "questions": 12,
+      "unknown": 2,
+      "remaining": 5,
+      "remaining_names": [
+        "Asperispora",
+        "Tumulispora",
+        "Lycospora",
+        "Cirratriradites",
+        "Lundbladispora"
+      ]
+    },
+    {
+      "id": 155,
+      "name": "Endosporites",
+      "questions": 10,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Endosporites"
+      ]
+    },
+    {
+      "id": 156,
+      "name": "Retispora",
+      "questions": 13,
+      "unknown": 5,
+      "remaining": 10,
+      "remaining_names": [
+        "Tumulispora",
+        "Elenisporis",
+        "Grandispora",
+        "Cingulizonates",
+        "Cymbosporites",
+        "Rimosisporis",
+        "Endoculeospora",
+        "Retispora",
+        "Geminospora",
+        "Lanatisporis"
+      ]
+    },
+    {
+      "id": 157,
+      "name": "Schulzospora",
+      "questions": 10,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Schulzospora"
+      ]
+    },
+    {
+      "id": 158,
+      "name": "Geminospora",
+      "questions": 21,
+      "unknown": 11,
+      "remaining": 23,
+      "remaining_names": [
+        "Asperispora",
+        "Clivosispora",
+        "Cristatisporites",
+        "Tumulispora",
+        "Densosporites",
+        "Vallatisporites",
+        "Elenisporis",
+        "Scabrosisporites",
+        "Diaphanospora",
+        "Spinozonotriletes",
+        "Sinuosisporis",
+        "Grandispora",
+        "Cingulizonates",
+        "Lycospora",
+        "Cirratriradites",
+        "Cymbosporites",
+        "Rimosisporis",
+        "Contagisporites",
+        "Endoculeospora",
+        "Retispora",
+        "Geminospora",
+        "Lanatisporis",
+        "Vestispora"
+      ]
+    },
+    {
+      "id": 159,
+      "name": "Colatisporites",
+      "questions": 18,
+      "unknown": 3,
+      "remaining": 6,
+      "remaining_names": [
+        "Anulatisporites",
+        "Tumulispora",
+        "Psilohymena",
+        "Tholisporites",
+        "Colatisporites",
+        "Vestispora"
+      ]
+    },
+    {
+      "id": 160,
+      "name": "Lanatisporis",
+      "questions": 19,
+      "unknown": 7,
+      "remaining": 17,
+      "remaining_names": [
+        "Tumulispora",
+        "Densosporites",
+        "Vallatisporites",
+        "Elenisporis",
+        "Scabrosisporites",
+        "Spinozonotriletes",
+        "Grandispora",
+        "Cingulizonates",
+        "Lycospora",
+        "Cirratriradites",
+        "Cymbosporites",
+        "Rimosisporis",
+        "Endoculeospora",
+        "Retispora",
+        "Geminospora",
+        "Lanatisporis",
+        "Vestispora"
+      ]
+    },
+    {
+      "id": 161,
+      "name": "Rugospora",
+      "questions": 10,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Rugospora"
+      ]
+    },
+    {
+      "id": 162,
+      "name": "Rhabdosporites",
+      "questions": 9,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Rhabdosporites"
+      ]
+    },
+    {
+      "id": 163,
+      "name": "Remysporites",
+      "questions": 14,
+      "unknown": 2,
+      "remaining": 1,
+      "remaining_names": [
+        "Remysporites"
+      ]
+    },
+    {
+      "id": 164,
+      "name": "Alatisporites",
+      "questions": 13,
+      "unknown": 4,
+      "remaining": 8,
+      "remaining_names": [
+        "Tumulispora",
+        "Densosporites",
+        "Monilospora",
+        "Cingulizonates",
+        "Lycospora",
+        "Cirratriradites",
+        "Densoisporites",
+        "Alatisporites"
+      ]
+    },
+    {
+      "id": 165,
+      "name": "Laevigatosporites",
+      "questions": 5,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Laevigatosporites"
+      ]
+    },
+    {
+      "id": 166,
+      "name": "Extrapunctatosporis",
+      "questions": 6,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Extrapunctatosporis"
+      ]
+    },
+    {
+      "id": 167,
+      "name": "Spinosporites",
+      "questions": 9,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Spinosporites"
+      ]
+    },
+    {
+      "id": 168,
+      "name": "Striatosporites",
+      "questions": 12,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Striatosporites"
+      ]
+    },
+    {
+      "id": 169,
+      "name": "Devonomonoletes",
+      "questions": 16,
+      "unknown": 9,
+      "remaining": 4,
+      "remaining_names": [
+        "Devonomonoletes",
+        "Tuberculatosporites",
+        "Reticuloidosporites",
+        "Columinisporites"
+      ]
+    },
+    {
+      "id": 170,
+      "name": "Tuberculatosporites",
+      "questions": 7,
+      "unknown": 0,
+      "remaining": 2,
+      "remaining_names": [
+        "Devonomonoletes",
+        "Tuberculatosporites"
+      ]
+    },
+    {
+      "id": 171,
+      "name": "Reticuloidosporites",
+      "questions": 9,
+      "unknown": 0,
+      "remaining": 2,
+      "remaining_names": [
+        "Devonomonoletes",
+        "Reticuloidosporites"
+      ]
+    },
+    {
+      "id": 172,
+      "name": "Columinisporites",
+      "questions": 12,
+      "unknown": 1,
+      "remaining": 2,
+      "remaining_names": [
+        "Devonomonoletes",
+        "Columinisporites"
+      ]
+    },
+    {
+      "id": 173,
+      "name": "Punctatosporites",
+      "questions": 7,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Punctatosporites"
+      ]
+    },
+    {
+      "id": 174,
+      "name": "Thymospora",
+      "questions": 11,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Thymospora"
+      ]
+    },
+    {
+      "id": 175,
+      "name": "Kedomonoletes",
+      "questions": 5,
+      "unknown": 0,
+      "remaining": 3,
+      "remaining_names": [
+        "Kedomonoletes",
+        "Torispora",
+        "Speciososporites"
+      ]
+    },
+    {
+      "id": 176,
+      "name": "Torispora",
+      "questions": 7,
+      "unknown": 4,
+      "remaining": 5,
+      "remaining_names": [
+        "Kedomonoletes",
+        "Torispora",
+        "Speciososporites",
+        "Gemmites",
+        "Pericutosporites"
+      ]
+    },
+    {
+      "id": 177,
+      "name": "Speciososporites",
+      "questions": 5,
+      "unknown": 0,
+      "remaining": 3,
+      "remaining_names": [
+        "Kedomonoletes",
+        "Torispora",
+        "Speciososporites"
+      ]
+    },
+    {
+      "id": 178,
+      "name": "Gemmites",
+      "questions": 5,
+      "unknown": 0,
+      "remaining": 2,
+      "remaining_names": [
+        "Torispora",
+        "Gemmites"
+      ]
+    },
+    {
+      "id": 179,
+      "name": "Pericutosporites",
+      "questions": 4,
+      "unknown": 0,
+      "remaining": 2,
+      "remaining_names": [
+        "Torispora",
+        "Pericutosporites"
+      ]
+    },
+    {
+      "id": 180,
+      "name": "Archaeoperisaccus",
+      "questions": 2,
+      "unknown": 0,
+      "remaining": 1,
+      "remaining_names": [
+        "Archaeoperisaccus"
+      ]
+    },
+    {
+      "id": 181,
+      "name": "Vestispora",
+      "questions": 14,
+      "unknown": 9,
+      "remaining": 16,
+      "remaining_names": [
+        "Grumosisporites",
+        "Elenisporis",
+        "Scabrosisporites",
+        "Diaphanospora",
+        "Sinuosisporis",
+        "Grandispora",
+        "Psilohymena",
+        "Cingulizonates",
+        "Tholisporites",
+        "Cymbosporites",
+        "Rimosisporis",
+        "Endoculeospora",
+        "Geminospora",
+        "Colatisporites",
+        "Lanatisporis",
+        "Vestispora"
+      ]
+    }
+  ],
+  "book_spore_paths": [
+    {
+      "name": "Acanthotriletes",
+      "steps": 7
+    },
+    {
+      "name": "Acanthozonotriletes",
+      "steps": 9
+    },
+    {
+      "name": "Acinosporites",
+      "steps": 6
+    },
+    {
+      "name": "Ahrensisporites",
+      "steps": 6
+    },
+    {
+      "name": "Alatisporites",
+      "steps": 5
+    },
+    {
+      "name": "Ambitisporites",
+      "steps": 7
+    },
+    {
+      "name": "Anaplanisporites",
+      "steps": 8
+    },
+    {
+      "name": "Ancamptotriletes",
+      "steps": 7
+    },
+    {
+      "name": "Ancyrospora",
+      "steps": 8
+    },
+    {
+      "name": "Aneurospora",
+      "steps": 10
+    },
+    {
+      "name": "Angulisporites",
+      "steps": 5
+    },
+    {
+      "name": "Anreticulispora",
+      "steps": 8
+    },
+    {
+      "name": "Antissporites",
+      "steps": 8
+    },
+    {
+      "name": "Anulatisporites",
+      "steps": 7
+    },
+    {
+      "name": "Apiculatisporis",
+      "steps": 8
+    },
+    {
+      "name": "Apiculiretusispora",
+      "steps": 8
+    },
+    {
+      "name": "Archaeoperisaccus",
+      "steps": 3
+    },
+    {
+      "name": "Archaeotriletes",
+      "steps": 8
+    },
+    {
+      "name": "Asperispora",
+      "steps": 5
+    },
+    {
+      "name": "Auroraspora",
+      "steps": 9
+    },
+    {
+      "name": "Bascaudaspora",
+      "steps": 8
+    },
+    {
+      "name": "Bellispores",
+      "steps": 7
+    },
+    {
+      "name": "Biornatispora",
+      "steps": 6
+    },
+    {
+      "name": "Breconisporites",
+      "steps": 8
+    },
+    {
+      "name": "Brevitriletes",
+      "steps": 6
+    },
+    {
+      "name": "Brochotriletes",
+      "steps": 7
+    },
+    {
+      "name": "Bullatisporites",
+      "steps": 6
+    },
+    {
+      "name": "Cadiospora",
+      "steps": 8
+    },
+    {
+      "name": "Calamospora",
+      "steps": 6
+    },
+    {
+      "name": "Callisporites",
+      "steps": 7
+    },
+    {
+      "name": "Calyptosporites",
+      "steps": 8
+    },
+    {
+      "name": "Camarozonotriletes",
+      "steps": 5
+    },
+    {
+      "name": "Camptotriletes",
+      "steps": 7
+    },
+    {
+      "name": "Camptozonotriletes",
+      "steps": 7
+    },
+    {
+      "name": "Capillatisporites",
+      "steps": 6
+    },
+    {
+      "name": "Chanovejisporites",
+      "steps": 7
+    },
+    {
+      "name": "Chelinospora",
+      "steps": 6
+    },
+    {
+      "name": "Chomotriletes",
+      "steps": 6
+    },
+    {
+      "name": "Cincturasporites",
+      "steps": 7
+    },
+    {
+      "name": "Cingulizonates",
+      "steps": 6
+    },
+    {
+      "name": "Cirratriradites",
+      "steps": 6
+    },
+    {
+      "name": "Clavisporis",
+      "steps": 6
+    },
+    {
+      "name": "Clivosispora",
+      "steps": 5
+    },
+    {
+      "name": "Colatisporites",
+      "steps": 7
+    },
+    {
+      "name": "Columinisporites",
+      "steps": 5
+    },
+    {
+      "name": "Conperiplecospora",
+      "steps": 6
+    },
+    {
+      "name": "Contagisporites",
+      "steps": 8
+    },
+    {
+      "name": "Converrucosisporites",
+      "steps": 7
+    },
+    {
+      "name": "Convolutispora",
+      "steps": 6
+    },
+    {
+      "name": "Cornispora",
+      "steps": 6
+    },
+    {
+      "name": "Corystisporites",
+      "steps": 8
+    },
+    {
+      "name": "Costaspora",
+      "steps": 6
+    },
+    {
+      "name": "Crassispora",
+      "steps": 7
+    },
+    {
+      "name": "Cristatisporites",
+      "steps": 7
+    },
+    {
+      "name": "Cyclobaculisporites",
+      "steps": 6
+    },
+    {
+      "name": "Cyclogranisporites",
+      "steps": 7
+    },
+    {
+      "name": "Cyclopileatispora",
+      "steps": 6
+    },
+    {
+      "name": "Cymbosporites",
+      "steps": 6
+    },
+    {
+      "name": "Cyrtospora",
+      "steps": 6
+    },
+    {
+      "name": "Densoisporites",
+      "steps": 8
+    },
+    {
+      "name": "Densosporites",
+      "steps": 7
+    },
+    {
+      "name": "Devonomonoletes",
+      "steps": 4
+    },
+    {
+      "name": "Diaphanospora",
+      "steps": 8
+    },
+    {
+      "name": "Diatomozonotriletes",
+      "steps": 6
+    },
+    {
+      "name": "Dibolisporites",
+      "steps": 8
+    },
+    {
+      "name": "Dictyotriletes",
+      "steps": 7
+    },
+    {
+      "name": "Discernisporites",
+      "steps": 8
+    },
+    {
+      "name": "Elenisporis",
+      "steps": 6
+    },
+    {
+      "name": "Emphanisporites",
+      "steps": 6
+    },
+    {
+      "name": "Emphanizonosporites",
+      "steps": 7
+    },
+    {
+      "name": "Endoculeospora",
+      "steps": 7
+    },
+    {
+      "name": "Endosporites",
+      "steps": 7
+    },
+    {
+      "name": "Euryzonotriletes",
+      "steps": 7
+    },
+    {
+      "name": "Extrapunctatosporis",
+      "steps": 4
+    },
+    {
+      "name": "Foveolatisporites",
+      "steps": 7
+    },
+    {
+      "name": "Foveoretusispora",
+      "steps": 7
+    },
+    {
+      "name": "Geminospora",
+      "steps": 7
+    },
+    {
+      "name": "Gemmites",
+      "steps": 4
+    },
+    {
+      "name": "Gibberulaspora",
+      "steps": 7
+    },
+    {
+      "name": "Gorgonispora",
+      "steps": 7
+    },
+    {
+      "name": "Grandispora",
+      "steps": 8
+    },
+    {
+      "name": "Granulatisporites",
+      "steps": 7
+    },
+    {
+      "name": "Gravisporites",
+      "steps": 9
+    },
+    {
+      "name": "Grumosisporites",
+      "steps": 3
+    },
+    {
+      "name": "Horriditriletes",
+      "steps": 7
+    },
+    {
+      "name": "Hymenozonotriletes",
+      "steps": 6
+    },
+    {
+      "name": "Hystricosporites",
+      "steps": 6
+    },
+    {
+      "name": "Interradispora",
+      "steps": 7
+    },
+    {
+      "name": "Jugisporis",
+      "steps": 6
+    },
+    {
+      "name": "Kedomonoletes",
+      "steps": 4
+    },
+    {
+      "name": "Knoxisporites",
+      "steps": 8
+    },
+    {
+      "name": "Krauselisporites",
+      "steps": 6
+    },
+    {
+      "name": "Labiadensites",
+      "steps": 7
+    },
+    {
+      "name": "Lacinitriletes",
+      "steps": 7
+    },
+    {
+      "name": "Laevigatosporites",
+      "steps": 4
+    },
+    {
+      "name": "Lanatisporis",
+      "steps": 10
+    },
+    {
+      "name": "Leiotriletes",
+      "steps": 6
+    },
+    {
+      "name": "Leiozonotriletes",
+      "steps": 8
+    },
+    {
+      "name": "Lophotriletes",
+      "steps": 7
+    },
+    {
+      "name": "Lophozonotriletes",
+      "steps": 7
+    },
+    {
+      "name": "Lukugasporites",
+      "steps": 7
+    },
+    {
+      "name": "Lundbladispora",
+      "steps": 8
+    },
+    {
+      "name": "Lycospora",
+      "steps": 5
+    },
+    {
+      "name": "Membrabaculisporis",
+      "steps": 7
+    },
+    {
+      "name": "Microbaculispora",
+      "steps": 7
+    },
+    {
+      "name": "Microfoveolatispora",
+      "steps": 7
+    },
+    {
+      "name": "Microreticulatisporites",
+      "steps": 7
+    },
+    {
+      "name": "Mixtatispora",
+      "steps": 7
+    },
+    {
+      "name": "Monilospora",
+      "steps": 7
+    },
+    {
+      "name": "Mooreisporites",
+      "steps": 6
+    },
+    {
+      "name": "Murospora",
+      "steps": 6
+    },
+    {
+      "name": "Neoraistrickia",
+      "steps": 7
+    },
+    {
+      "name": "Nevesisporites",
+      "steps": 7
+    },
+    {
+      "name": "Orbisporis",
+      "steps": 6
+    },
+    {
+      "name": "Pericutosporites",
+      "steps": 4
+    },
+    {
+      "name": "Periplecotriletes",
+      "steps": 6
+    },
+    {
+      "name": "Perotriletes",
+      "steps": 8
+    },
+    {
+      "name": "Phidiaesporites",
+      "steps": 7
+    },
+    {
+      "name": "Pileatisporites",
+      "steps": 6
+    },
+    {
+      "name": "Pilosisporites",
+      "steps": 6
+    },
+    {
+      "name": "Potonieitriradites",
+      "steps": 6
+    },
+    {
+      "name": "Potoniespores",
+      "steps": 6
+    },
+    {
+      "name": "Procoronaspora",
+      "steps": 7
+    },
+    {
+      "name": "Psilohymena",
+      "steps": 9
+    },
+    {
+      "name": "Pulvinispora",
+      "steps": 7
+    },
+    {
+      "name": "Pulvinizonotriletes",
+      "steps": 6
+    },
+    {
+      "name": "Punctatisporites",
+      "steps": 7
+    },
+    {
+      "name": "Punctatosporites",
+      "steps": 5
+    },
+    {
+      "name": "Pustulatisporites",
+      "steps": 7
+    },
+    {
+      "name": "Pygmaeisporites",
+      "steps": 6
+    },
+    {
+      "name": "Radiizonates",
+      "steps": 6
+    },
+    {
+      "name": "Raistrickia",
+      "steps": 7
+    },
+    {
+      "name": "Reinschospora",
+      "steps": 7
+    },
+    {
+      "name": "Remysporites",
+      "steps": 9
+    },
+    {
+      "name": "Reticulatisporites",
+      "steps": 8
+    },
+    {
+      "name": "Reticuliretusispora",
+      "steps": 7
+    },
+    {
+      "name": "Reticuloidosporites",
+      "steps": 5
+    },
+    {
+      "name": "Retispora",
+      "steps": 6
+    },
+    {
+      "name": "Retusotriletes",
+      "steps": 7
+    },
+    {
+      "name": "Rhabdosporites",
+      "steps": 10
+    },
+    {
+      "name": "Rimosisporis",
+      "steps": 6
+    },
+    {
+      "name": "Rotaspora",
+      "steps": 6
+    },
+    {
+      "name": "Rugospora",
+      "steps": 10
+    },
+    {
+      "name": "Rugulispora",
+      "steps": 6
+    },
+    {
+      "name": "Samarisporites",
+      "steps": 8
+    },
+    {
+      "name": "Savitrisporites",
+      "steps": 5
+    },
+    {
+      "name": "Scabrosisporites",
+      "steps": 8
+    },
+    {
+      "name": "Schopfites",
+      "steps": 7
+    },
+    {
+      "name": "Schulzospora",
+      "steps": 6
+    },
+    {
+      "name": "Secarisporites",
+      "steps": 7
+    },
+    {
+      "name": "Simozonotriletes",
+      "steps": 5
+    },
+    {
+      "name": "Sinuosisporis",
+      "steps": 8
+    },
+    {
+      "name": "Speciososporites",
+      "steps": 3
+    },
+    {
+      "name": "Spinosisporites",
+      "steps": 6
+    },
+    {
+      "name": "Spinosporites",
+      "steps": 5
+    },
+    {
+      "name": "Spinozonotriletes",
+      "steps": 8
+    },
+    {
+      "name": "Stellispora",
+      "steps": 8
+    },
+    {
+      "name": "Stenozonotriletes",
+      "steps": 7
+    },
+    {
+      "name": "Streelispora",
+      "steps": 10
+    },
+    {
+      "name": "Striatosporites",
+      "steps": 5
+    },
+    {
+      "name": "Synorisporites",
+      "steps": 9
+    },
+    {
+      "name": "Tholisporites",
+      "steps": 5
+    },
+    {
+      "name": "Thymospora",
+      "steps": 5
+    },
+    {
+      "name": "Torispora",
+      "steps": 4
+    },
+    {
+      "name": "Trachytriletes",
+      "steps": 6
+    },
+    {
+      "name": "Tripartites",
+      "steps": 6
+    },
+    {
+      "name": "Triquitrites",
+      "steps": 6
+    },
+    {
+      "name": "Tuberculatosporites",
+      "steps": 5
+    },
+    {
+      "name": "Tuberculiretusispora",
+      "steps": 7
+    },
+    {
+      "name": "Tuberculispora",
+      "steps": 7
+    },
+    {
+      "name": "Tumulispora",
+      "steps": 7
+    },
+    {
+      "name": "Umbonatisporites",
+      "steps": 6
+    },
+    {
+      "name": "Vallatisporites",
+      "steps": 7
+    },
+    {
+      "name": "Veliferaspora",
+      "steps": 8
+    },
+    {
+      "name": "Vermiculispora",
+      "steps": 6
+    },
+    {
+      "name": "Verruciretusispora",
+      "steps": 8
+    },
+    {
+      "name": "Verrucosisporites",
+      "steps": 8
+    },
+    {
+      "name": "Vestispora",
+      "steps": 1
+    },
+    {
+      "name": "Waltzispora",
+      "steps": 5
+    },
+    {
+      "name": "Zonocoronaspora",
+      "steps": 6
+    }
+  ]
+}
